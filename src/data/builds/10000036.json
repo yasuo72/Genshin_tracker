@@ -1,0 +1,144 @@
+{
+  "characterId": "10000036",
+  "role": "Support / Sub DPS",
+  "tierRank": "A",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "A young exorcist from a family of exorcists. He does everything he can to suppress his abundance of yang energy.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "The last attack of Chongyun's Normal Attack combo releases 3 ice blades. Each blade deals 50% of Chongyun's ATK as Cryo DMG to all opponents in its path.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "Elemental Skills and Elemental Bursts cast within the Frost Field created by Spirit Blade: Chonghua's Layered Frost have their CD time decreased by 15%.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Spirit Blade: Cloud-Parting Star by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "Chongyun regenerates 1 Energy every time he hits an opponent affected by Cryo.\nThis effect can only occur once every 2s.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of Spirit Blade: Chonghua's Layered Frost by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Spirit Blade: Cloud-Parting Star deals 15% more DMG to opponents with a lower percentage of their Max HP remaining than Chongyun.\nThis skill will also summon 1 additional spirit blade.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Beacon of the Reed Sea",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "+33.1% CRIT Rate and massive ATK bonuses upon using skill or taking damage."
+    },
+    {
+      "name": "Wolf's Gravestone",
+      "tier": "Standard Banner",
+      "rank": 2,
+      "reasoning": "Colossal ATK% stat stick with partywide ATK buff against low-health enemies."
+    },
+    {
+      "name": "Serpent Spine",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Battle Pass weapon providing up to +50% all DMG dealt at max stacks."
+    },
+    {
+      "name": "Earth Shaker",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "Natlan craftable claymore with Pyro reaction damage bonus."
+    },
+    {
+      "name": "Favonius Greatsword",
+      "tier": "Standard Banner",
+      "rank": 5,
+      "reasoning": "Generates clear energy particles for high Burst availability."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Blizzard Strayer",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Cryo DMG Bonus",
+        "circlet": "Crit DMG / Crit Rate"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Cryo reaction damage and combat uptime."
+    },
+    {
+      "setName": "Marechaussee Hunter",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Cryo DMG Bonus",
+        "circlet": "Crit DMG / Crit Rate"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Blizzard Freeze Core",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000002",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000093",
+          "role": "Healer"
+        }
+      ],
+      "rotation": "Furina E Q -> Kazuha E Q -> Xianyun E Q -> Cryo DPS Burst Combo",
+      "expectedDamage": "~75-105k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit DMG, Crit Rate, ATK% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

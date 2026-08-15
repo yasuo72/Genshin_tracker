@@ -1,0 +1,144 @@
+{
+  "characterId": "10000070",
+  "role": "Main DPS / Sub DPS",
+  "tierRank": "S",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "The star of the Zubayr Theater. She is full of warmth and innocence, and her dances are lively and elegant.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Dance of Haftkarsvar will be enhanced as follows:\n·Luminous Illusion DMG is increased by 65%.\n·The Tranquility Aura's duration is extended by 6s.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "After characters affected by the Golden Chalice's Bounty deal Hydro DMG to an opponent, that opponent's Hydro RES will be decreased by 35% for 10s. After dealing Bloom or Lunar-Bloom DMG to opponents, their Dendro RES will be decreased by 35% for 10s.\nYou must first unlock the Ascension Talent \"Court of Dancing Petals.\"",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Dance of Abzendegi: Distant Dreams, Listening Spring by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "After the third dance step of Dance of Haftkarsvar's Pirouette hits opponents, Nilou will gain 15 Elemental Energy, and DMG from her Dance of Abzendegi: Distant Dreams, Listening Spring will be increased by 50% for 8s.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of Dance of Haftkarsvar by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "For every 1,000 points of Max HP, Nilou's CRIT Rate and CRIT DMG will increase by 0.6% and 1.2% respectively.\nThe maximum increase in CRIT Rate and CRIT DMG via this method is 30% and 60% respectively.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Mistsplitter Reforged",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Universal elemental damage boost and high CRIT DMG sub-stat."
+    },
+    {
+      "name": "Primordial Jade Cutter",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "+44.1% CRIT Rate and HP-to-ATK conversion."
+    },
+    {
+      "name": "Favonius Sword",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Top comfort pick for generating energy particles for smooth Burst uptime."
+    },
+    {
+      "name": "Sacrificial Sword",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "High chance to reset Elemental Skill cooldown."
+    },
+    {
+      "name": "Finale of the Deep",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "Fontaine craftable sword providing substantial ATK and Bond of Life damage bonuses."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Heart of Depth",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "HP%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "HP% / ATK%",
+        "goblet": "Hydro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Hydro reaction damage and combat uptime."
+    },
+    {
+      "setName": "Golden Troupe",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "HP%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "HP% / ATK%",
+        "goblet": "Hydro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Sovereign Hypercarry",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000087",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000030",
+          "role": "Shielder"
+        }
+      ],
+      "rotation": "Furina E Q -> Zhongli Hold E -> Kazuha E Q -> Main DPS Charged Attacks",
+      "expectedDamage": "~85-115k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit Rate, Crit DMG, HP% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

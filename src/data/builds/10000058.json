@@ -1,0 +1,144 @@
+{
+  "characterId": "10000058",
+  "role": "Main DPS / Sub DPS",
+  "tierRank": "S",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Lady Guuji of the Grand Narukami Shrine. Also serves as the editor-in-chief of Yae Publishing House. Unimaginable intelligence and cunning are hidden under her beautiful appearance.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Each time Great Secret Art: Tenko Kenshin activates a Tenko Thunderbolt, Yae Miko will restore 8 Elemental Energy for herself.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "Sesshou Sakura start at Level 2 when created, their max level is increased to 4, and their attack range is increased by 60%.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Yakan Evocation: Sesshou Sakura by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "When Sesshou Sakura lightning hits opponents, the Electro DMG Bonus of all nearby party members is increased by 20% for 5s.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of Great Secret Art: Tenko Kenshin by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "The Sesshou Sakura's attacks will ignore 60% of the opponents' DEF.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Lost Prayer to the Sacred Winds",
+      "tier": "Standard Banner",
+      "rank": 1,
+      "reasoning": "High CRIT Rate, movement speed, and stacking Elemental DMG bonus."
+    },
+    {
+      "name": "Kagura's Verity",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "Huge CRIT DMG with stacking Elemental Skill damage buffs."
+    },
+    {
+      "name": "The Widsith",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Colossal CRIT DMG with powerful musical theme song buffs upon taking field."
+    },
+    {
+      "name": "Prototype Amber",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "Craftable catalyst providing HP% and teamwide healing plus energy refund on Burst."
+    },
+    {
+      "name": "Thrilling Tales of Dragon Slayers",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "3★ support weapon granting +48% ATK to the next character taking the field."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Thundering Fury",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Energy Recharge",
+        "goblet": "Electro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Electro reaction damage and combat uptime."
+    },
+    {
+      "setName": "Emblem of Severed Fate",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Energy Recharge",
+        "goblet": "Electro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Aggravate Quickswap",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000052",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000073",
+          "role": "Enabler"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000078",
+          "role": "Healer"
+        }
+      ],
+      "rotation": "Nahida E Q -> Baizhu E Q -> Kazuha E Q -> Electro DPS Burst Combo",
+      "expectedDamage": "~75-100k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit Rate, Crit DMG, ATK% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

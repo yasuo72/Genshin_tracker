@@ -1,0 +1,144 @@
+{
+  "characterId": "10000110",
+  "role": "Support / Sub DPS",
+  "tierRank": "A",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Head coach of the fitness club at the Collective of Plenty, and a renowned Natlanese nutritionist.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "When Iansan is in combat and is in the Nightsoul's Blessing state, she will restore 15 Elemental Energy for every 6 Nightsoul points she consumes. This effect can trigger once every 18s.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "When using the Elemental Burst The Three Principles of Power, Iansan will also gain the Precise Movement effect from her Ascension Talent \"Enhanced Resistance Training\" for 15s. Additionally, if Iansan is off-field while Precise Movement is active, she will also increase your current active character's ATK by 30%. You must first unlock the Ascension Talent \"Enhanced Resistance Training\" to access the above effect.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Thunderbolt Rush by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "When the Kinetic Energy Scale is present, Iansan will gain 2 stacks of Surging Force after your current active character (excluding herself) uses their Elemental Burst. The stacks last until the Scale leaves the field, and Surging Force can be gained once per Scale summoning. Whenever Iansan restores Nightsoul points via the Scale, she will consume 1 Surging Force stack and restore 4 additional Nightsoul points.\nAdditionally, if her Nightsoul restoration from the Scale overflows, Iansan will gain 50% of the overflow the next time she restores Nightsoul points via the Scale.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of The Three Principles of Power by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "The Kinetic Energy Scale's duration is increased by 3s.\nAdditionally, when Iansan triggers Nightsoul point restoration, if there is any overflow, she will gain the Extreme Force effect, which increases the DMG dealt by your current active character by 25% for 3s.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Staff of Homa",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "+66.2% CRIT DMG, +20% HP, and scaling ATK bonus."
+    },
+    {
+      "name": "Primordial Jade Winged-Spear",
+      "tier": "Standard Banner",
+      "rank": 2,
+      "reasoning": "High base ATK, CRIT Rate, and stacking damage bonuses."
+    },
+    {
+      "name": "The Catch",
+      "tier": "F2P",
+      "rank": 3,
+      "reasoning": "Top F2P weapon with +45.9% ER, +32% Burst DMG, and +12% Burst CRIT Rate."
+    },
+    {
+      "name": "Dragon's Bane",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "High Elemental Mastery with bonus damage to Pyro/Hydro affected targets."
+    },
+    {
+      "name": "Favonius Lance",
+      "tier": "Standard Banner",
+      "rank": 5,
+      "reasoning": "Reliable energy battery for the active wielder and party."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Thundering Fury",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Energy Recharge",
+        "goblet": "Electro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Electro reaction damage and combat uptime."
+    },
+    {
+      "setName": "Emblem of Severed Fate",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Energy Recharge",
+        "goblet": "Electro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Aggravate Quickswap",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000052",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000073",
+          "role": "Enabler"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000078",
+          "role": "Healer"
+        }
+      ],
+      "rotation": "Nahida E Q -> Baizhu E Q -> Kazuha E Q -> Electro DPS Burst Combo",
+      "expectedDamage": "~75-100k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit Rate, Crit DMG, ATK% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

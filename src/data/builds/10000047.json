@@ -1,0 +1,129 @@
+{
+  "characterId": "10000047",
+  "role": "Buffer",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Top universal elemental buffer and crowd controller converting full EM into team elemental damage bonuses.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Decreases Skill cooldown by 10% and completely resets Skill cooldown upon casting Burst.",
+      "priority": "high"
+    },
+    {
+      "number": 2,
+      "summary": "Grants +200 Elemental Mastery to Kazuha and all party members inside his Autumn Whirlwind field.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases Elemental Skill level by 3.",
+      "priority": "low"
+    },
+    {
+      "number": 4,
+      "summary": "Restores energy when gliding and when energy is below 45.",
+      "priority": "low"
+    },
+    {
+      "number": 5,
+      "summary": "Increases Elemental Burst level by 3.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Gains Anemo infusion for 5s and increases normal/charged attack DMG by 0.2% per point of EM.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "11503",
+      "name": "Freedom-Sworn",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature sword giving +198 EM and partywide +20% ATK and +16% Normal/Charged/Plunge DMG."
+    },
+    {
+      "weaponId": "11417",
+      "name": "Xiphos' Moonlight",
+      "tier": "Standard Banner",
+      "rank": 2,
+      "reasoning": "Gacha 4-star weapon giving +165 EM and converting EM into Energy Recharge for Kazuha and the party."
+    },
+    {
+      "weaponId": "11407",
+      "name": "Iron Sting",
+      "tier": "F2P",
+      "rank": 3,
+      "reasoning": "Craftable blacksmith sword providing +165 EM and +12% all DMG."
+    },
+    {
+      "weaponId": "11422",
+      "name": "Toukabou Shigure",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "Event weapon giving +165 EM and +32% DMG against targeted enemies."
+    },
+    {
+      "weaponId": "11401",
+      "name": "Favonius Sword",
+      "tier": "Standard Banner",
+      "rank": 5,
+      "reasoning": "Provides crucial Energy Recharge to ensure 100% Burst uptime."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Viridescent Venerer",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Elemental Mastery (to 1000)",
+        "Energy Recharge (to 160%)",
+        "Crit Rate"
+      ],
+      "mainStats": {
+        "sands": "Elemental Mastery",
+        "goblet": "Elemental Mastery",
+        "circlet": "Elemental Mastery"
+      },
+      "reasoning": "+15% Anemo DMG, +60% Swirl DMG, and shreds -40% Elemental RES to the swirled element for 10s."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "International Core",
+      "budget": "Mixed",
+      "members": [
+        {
+          "characterId": "10000033",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000023",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        }
+      ],
+      "rotation": "Childe E -> Bennett Q -> Kazuha Hold E Q (Double Swirl Hydro/Pyro) -> Xiangling Q E -> Childe Melee Stance",
+      "expectedDamage": "~70-90k avg per rotation"
+    }
+  ],
+  "notes": "Always prioritize 4-Piece Viridescent Venerer. Triple EM main stats with 150-160% ER is the gold standard.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

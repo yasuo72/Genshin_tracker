@@ -1,0 +1,144 @@
+{
+  "characterId": "10000132",
+  "role": "Support / Sub DPS",
+  "tierRank": "A",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "A diminutive Witch Hunter who has journeyed all the way from Nod-Krai with the singular purpose of rooting out a witch who, to hear her tell it, has committed every sin imaginable — including bullying little kids!",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "After the **Banehunter Oathhammer** that has undergone Elemental Conversion hits an opponent, Prune will regain 2 Energy. This effect can occur once every 1.8s.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "During the Elemental Burst **The Bell Tolls! The Hunt Is On!**, when the Witchlure Bell is in Hunter-Seeker mode, Prune gains the Hunt the Witch effect: Prune's ATK increases by 10%, and when the Witchlure Bell and the **Banehunter Oathhammer** that has undergone Elemental Conversion hits an opponent, it further increases her ATK by 5%. Prune's ATK can be increased by up to 40% in this way.\nThe original instance of the above effect will be removed if \"The Bell Tolls! The Hunt Is On!\" is used again during this time.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of **The Bell Tolls! The Hunt Is On!** by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "After the **Banehunter Oathhammer** that has undergone Elemental Conversion hits an opponent, it will ricochet and land on a nearby opponent, dealing 80% ATK as DMG of the corresponding Elemental Type.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of **Ring-A-Ding-Ding! Hexhunter Chime** by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "The duration of the Witchlure Bell's Hunter-Seeker mode from the Elemental Burst **The Bell Tolls! The Hunt Is On!** is extended by 4s.\nAdditionally, after party members affected by Tolling Rally trigger any Elemental Reaction, they will cause Prune and the other current active character(s) affected by Tolling Rally to gain 350 ATK for 5s.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Lost Prayer to the Sacred Winds",
+      "tier": "Standard Banner",
+      "rank": 1,
+      "reasoning": "High CRIT Rate, movement speed, and stacking Elemental DMG bonus."
+    },
+    {
+      "name": "Kagura's Verity",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "Huge CRIT DMG with stacking Elemental Skill damage buffs."
+    },
+    {
+      "name": "The Widsith",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Colossal CRIT DMG with powerful musical theme song buffs upon taking field."
+    },
+    {
+      "name": "Prototype Amber",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "Craftable catalyst providing HP% and teamwide healing plus energy refund on Burst."
+    },
+    {
+      "name": "Thrilling Tales of Dragon Slayers",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "3★ support weapon granting +48% ATK to the next character taking the field."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Viridescent Venerer",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Elemental Mastery",
+        "Energy Recharge",
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "Elemental Mastery / ATK%",
+        "goblet": "Anemo DMG Bonus / Elemental Mastery",
+        "circlet": "Elemental Mastery / Crit Rate"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Anemo reaction damage and combat uptime."
+    },
+    {
+      "setName": "Desert Pavilion Chronicle",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Elemental Mastery",
+        "Energy Recharge",
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "Elemental Mastery / ATK%",
+        "goblet": "Anemo DMG Bonus / Elemental Mastery",
+        "circlet": "Elemental Mastery / Crit Rate"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Swirl / Hypercarry Anemo",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        },
+        {
+          "characterId": "10000060",
+          "role": "Sub DPS"
+        }
+      ],
+      "rotation": "Furina E Q -> Bennett Q E -> Yelan E Q -> Anemo Skill/Burst Swirl",
+      "expectedDamage": "~65-90k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Elemental Mastery, Energy Recharge, Crit Rate to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

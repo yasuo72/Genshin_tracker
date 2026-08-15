@@ -1,0 +1,121 @@
+{
+  "characterId": "10000099",
+  "role": "Sub DPS",
+  "tierRank": "S",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Dendro Lumidouce Case perfumer dealing off-field damage amplified by the Burning reaction.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Increases Lumidouce Case DMG by 20% and grants Cleardew Cologne on Burning triggers.",
+      "priority": "high"
+    },
+    {
+      "number": 2,
+      "summary": "Decreases enemies' Dendro RES by 30% for 10s upon triggering Lumidouce Case.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "13512",
+      "name": "Lumidouce Elegy",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature polearm providing +33.1% CRIT Rate, +15% ATK, and up to +36% DMG during Burning."
+    },
+    {
+      "weaponId": "13501",
+      "name": "Staff of Homa",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "High CRIT DMG and universal ATK boost."
+    },
+    {
+      "weaponId": "13415",
+      "name": "The Catch",
+      "tier": "F2P",
+      "rank": 3,
+      "reasoning": "Energy recharge and Burst DMG bonus."
+    },
+    {
+      "weaponId": "13421",
+      "name": "Missive Windspear",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "Event weapon giving ATK% and EM upon triggering reactions."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Unfinished Reverie",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Dendro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "+50% DMG when enemies are Burning (BiS set for Emilie)."
+    },
+    {
+      "setName": "Deepwood Memories",
+      "pieceCount": "4pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Dendro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "-30% Dendro RES shred when another team member is not running Deepwood."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Kinich Burning Scent",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000101",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000099",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000106",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Buffer"
+        }
+      ],
+      "rotation": "Bennett Q E -> Emilie E Q -> Mavuika E Q -> Kinich E Cannon",
+      "expectedDamage": "~85-115k avg per rotation"
+    }
+  ],
+  "notes": "Maintains constant Burning without requiring close-range application.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

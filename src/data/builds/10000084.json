@@ -1,0 +1,168 @@
+{
+  "characterId": "10000084",
+  "role": "Main DPS / Sub DPS",
+  "tierRank": "S",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "A famed Fontainian magician who possesses great stage presence as well as gift of the gab. Audiences are enthralled by his exquisite skills, and they hang on to his every clever word.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Lyney can have 2 Grin-Malkin Hats present at once.\nAdditionally, Prop Arrows will summon 2 Grin-Malkin Hats and grant Lyney 1 extra stack of Prop Surplus. This effect can occur once every 15s.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "When Lyney is on the field, he will gain a stack of Crisp Focus every 2s. Each stack will increase his CRIT DMG by 20%. Max 3 stacks. This effect will be canceled when Lyney leaves the field.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Normal Attack: Card Force Translocation by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "After an opponent is hit by Lyney's Pyro Charged Attack, this opponent's Pyro RES will be decreased by 20% for 6s.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of Wondrous Trick: Miracle Parade by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "When Lyney fires a Prop Arrow, he will fire a Pyrotechnic Strike: Reprised that will deal 80% of a Pyrotechnic Strike's DMG. This DMG is considered Charged Attack DMG.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Aqua Simulacra",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "+88.2% CRIT DMG, +16% HP, and unconditional +20% damage bonus."
+    },
+    {
+      "name": "Elegy for the End",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "High ER and teamwide EM and ATK buff upon triggering skills."
+    },
+    {
+      "name": "Favonius Warbow",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Premier energy generation weapon for consistent rotation uptime."
+    },
+    {
+      "name": "Sacrificial Bow",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "Resets skill cooldown for double energy particle generation."
+    },
+    {
+      "name": "Slingshot",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "Top 3★ budget CRIT Rate stat stick for on-field bow attackers."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Crimson Witch of Flames",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Elemental Mastery",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Elemental Mastery",
+        "goblet": "Pyro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Pyro reaction damage and combat uptime."
+    },
+    {
+      "setName": "Obsidian Codex",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Elemental Mastery",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Elemental Mastery",
+        "goblet": "Pyro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Vaporize Hypercarry",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000046",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000060",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000030",
+          "role": "Shielder"
+        }
+      ],
+      "rotation": "Zhongli Hold E -> Kazuha E Q -> Yelan E Q -> Main DPS Skill Combo",
+      "expectedDamage": "~70-95k avg per rotation"
+    },
+    {
+      "name": "F2P National Core",
+      "budget": "F2P",
+      "members": [
+        {
+          "characterId": "10000023",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000025",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        },
+        {
+          "characterId": "10000043",
+          "role": "Buffer"
+        }
+      ],
+      "rotation": "Bennett Q E -> Sucrose E Q -> Xiangling Q E -> Xingqiu Q E",
+      "expectedDamage": "~50-70k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit Rate, Crit DMG, ATK% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

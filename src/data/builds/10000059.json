@@ -1,0 +1,144 @@
+{
+  "characterId": "10000059",
+  "role": "Support / Sub DPS",
+  "tierRank": "A",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "A young prodigy detective from the Tenryou Commission. His senses are sharp and his thoughts are clear.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "For 5s after Shikanoin Heizou takes the field, his Normal Attack SPD is increased by 15%. He also gains 1 Declension stack for Heartstopper Strike. This effect can be triggered once every 10s.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "The pull effect of the Arresting Windtunnel created by Windmuster Kick is enhanced, and its duration is increased to 1s.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Heartstopper Strike by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "The first Windmuster Iris explosion in each Windmuster Kick will regenerate 9 Elemental Energy for Shikanoin Heizou. Every subsequent explosion in that Windmuster Kick will each regenerate an additional 1.5 Energy for Heizou.\nOne Windmuster Kick can regenerate a total of 13.5 Energy for Heizou in this manner.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of Windmuster Kick by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Each Declension stack will increase the CRIT Rate of the Heartstopper Strike unleashed by 4%. When Heizou possesses Conviction, this Heartstopper Strike's CRIT DMG is increased by 32%.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Lost Prayer to the Sacred Winds",
+      "tier": "Standard Banner",
+      "rank": 1,
+      "reasoning": "High CRIT Rate, movement speed, and stacking Elemental DMG bonus."
+    },
+    {
+      "name": "Kagura's Verity",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "Huge CRIT DMG with stacking Elemental Skill damage buffs."
+    },
+    {
+      "name": "The Widsith",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Colossal CRIT DMG with powerful musical theme song buffs upon taking field."
+    },
+    {
+      "name": "Prototype Amber",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "Craftable catalyst providing HP% and teamwide healing plus energy refund on Burst."
+    },
+    {
+      "name": "Thrilling Tales of Dragon Slayers",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "3★ support weapon granting +48% ATK to the next character taking the field."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Viridescent Venerer",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Elemental Mastery",
+        "Energy Recharge",
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "Elemental Mastery / ATK%",
+        "goblet": "Anemo DMG Bonus / Elemental Mastery",
+        "circlet": "Elemental Mastery / Crit Rate"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Anemo reaction damage and combat uptime."
+    },
+    {
+      "setName": "Desert Pavilion Chronicle",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Elemental Mastery",
+        "Energy Recharge",
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "Elemental Mastery / ATK%",
+        "goblet": "Anemo DMG Bonus / Elemental Mastery",
+        "circlet": "Elemental Mastery / Crit Rate"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Swirl / Hypercarry Anemo",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        },
+        {
+          "characterId": "10000060",
+          "role": "Sub DPS"
+        }
+      ],
+      "rotation": "Furina E Q -> Bennett Q E -> Yelan E Q -> Anemo Skill/Burst Swirl",
+      "expectedDamage": "~65-90k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Elemental Mastery, Energy Recharge, Crit Rate to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

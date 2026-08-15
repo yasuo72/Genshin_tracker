@@ -1,0 +1,144 @@
+{
+  "characterId": "10000094",
+  "role": "Main DPS / Sub DPS",
+  "tierRank": "S",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "The owner of Chioriya Boutique. A tailor renowned throughout Fontaine.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "The AoE of the automaton doll \"Tamoto\" summoned by Fluttering Hasode is increased by 50%.\nAdditionally, if there is a Geo party member other than Chiori, Fluttering Hasode will trigger the following after the dash is completed:\n· Summon an additional Tamoto. Only one additional Tamoto can exist at the same time, whether summoned by Chiori this way or through the presence of a Geo Construct.\n· Triggers the Ascension Talent \"The Finishing Touch.\" You must first unlock the Ascension Talent \"The Finishing Touch.\"",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "For 10s after using Hiyoku: Twin Blades, a simplified automaton doll, \"Kinu,\" will be summoned next to your active character every 3s. Kinu will attack nearby opponents, dealing AoE Geo DMG equivalent to 170% of Tamoto's DMG. DMG dealt this way is considered Elemental Skill DMG.\nKinu will leave the field after 1 attack or after lasting 3s.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Fluttering Hasode by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "For 8s after triggering either follow-up effect of the Ascension Talent \"Tailor-Made,\" when your current active character's Normal, Charged, or Plunging Attacks hit a nearby opponent, a simplified automaton doll, \"Kinu,\" will be summoned near this opponent. You can summon 1 Kinu every 1s in this way, and up to 3 Kinu may be summoned this way during each instance of \"Tailor-Made\"'s Seize the Moment or Tailoring effect. The above effect can be triggered up to once every 15s.\nYou must first unlock the Ascension Talent \"Tailor-Made.\"",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of Hiyoku: Twin Blades by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "After triggering a follow-up effect of the Ascension Talent \"Tailor-Made,\" Chiori's own Fluttering Hasode's CD is decreased by 12s. You must first unlock the Ascension Talent \"Tailor-Made.\".\nIn addition, the DMG dealt by Chiori's own Normal Attacks is increased by an amount equal to 235% of her own DEF.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Mistsplitter Reforged",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Universal elemental damage boost and high CRIT DMG sub-stat."
+    },
+    {
+      "name": "Primordial Jade Cutter",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "+44.1% CRIT Rate and HP-to-ATK conversion."
+    },
+    {
+      "name": "Favonius Sword",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Top comfort pick for generating energy particles for smooth Burst uptime."
+    },
+    {
+      "name": "Sacrificial Sword",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "High chance to reset Elemental Skill cooldown."
+    },
+    {
+      "name": "Finale of the Deep",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "Fontaine craftable sword providing substantial ATK and Bond of Life damage bonuses."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Husk of Opulent Dreams",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "DEF%",
+        "Energy Recharge",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "DEF% / ATK%",
+        "goblet": "Geo DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Geo reaction damage and combat uptime."
+    },
+    {
+      "setName": "Scroll of the Hero of Cinder City",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "DEF%",
+        "Energy Recharge",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "DEF% / ATK%",
+        "goblet": "Geo DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Mono Geo Resonance",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000057",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000030",
+          "role": "Shielder"
+        },
+        {
+          "characterId": "10000055",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        }
+      ],
+      "rotation": "Zhongli Hold E -> Gorou E Q -> Bennett Q -> Geo DPS Burst Combo",
+      "expectedDamage": "~70-95k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit Rate, Crit DMG, DEF% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

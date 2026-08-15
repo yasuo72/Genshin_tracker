@@ -1,0 +1,144 @@
+{
+  "characterId": "10000076",
+  "role": "Support / Sub DPS",
+  "tierRank": "A",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "A researcher from \"one hundred years ago.\" She enjoys self-identifying as everyone's senior, and has significant knowledge of ancient scripts and machines of all kinds.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Faruzan can fire off a maximum of 2 Hurricane Arrows using fully charged Aimed Shots while under the effect of a single Manifest Gale created by Wind Realm of Nasamjnin.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "The duration of the Dazzling Polyhedron created by The Wind's Secret Ways is increased by 6s.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Wind Realm of Nasamjnin by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "The vortex created by Pressurized Collapses will restore Energy to Faruzan based on the number of opponents hit: If it hits 1 opponent, it will restore 2 Energy for Faruzan. Each additional opponent hit will restore 0.5 more Energy for Faruzan.\nA maximum of 4 Energy can be restored to her per vortex.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of The Wind's Secret Ways by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Characters affected by The Wind's Secret Ways' Prayerful Wind's Benefit have 40% increased CRIT DMG when they deal Anemo DMG. When the active character deals DMG while affected by Prayerful Wind's Benefit, they will apply Pressurized Collapse to the opponent damaged. This effect can be triggered once every 3s. This CD is shared between all party members.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Aqua Simulacra",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "+88.2% CRIT DMG, +16% HP, and unconditional +20% damage bonus."
+    },
+    {
+      "name": "Elegy for the End",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "High ER and teamwide EM and ATK buff upon triggering skills."
+    },
+    {
+      "name": "Favonius Warbow",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Premier energy generation weapon for consistent rotation uptime."
+    },
+    {
+      "name": "Sacrificial Bow",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "Resets skill cooldown for double energy particle generation."
+    },
+    {
+      "name": "Slingshot",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "Top 3★ budget CRIT Rate stat stick for on-field bow attackers."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Viridescent Venerer",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Elemental Mastery",
+        "Energy Recharge",
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "Elemental Mastery / ATK%",
+        "goblet": "Anemo DMG Bonus / Elemental Mastery",
+        "circlet": "Elemental Mastery / Crit Rate"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Anemo reaction damage and combat uptime."
+    },
+    {
+      "setName": "Desert Pavilion Chronicle",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Elemental Mastery",
+        "Energy Recharge",
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "Elemental Mastery / ATK%",
+        "goblet": "Anemo DMG Bonus / Elemental Mastery",
+        "circlet": "Elemental Mastery / Crit Rate"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Swirl / Hypercarry Anemo",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        },
+        {
+          "characterId": "10000060",
+          "role": "Sub DPS"
+        }
+      ],
+      "rotation": "Furina E Q -> Bennett Q E -> Yelan E Q -> Anemo Skill/Burst Swirl",
+      "expectedDamage": "~65-90k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Elemental Mastery, Energy Recharge, Crit Rate to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

@@ -1,0 +1,144 @@
+{
+  "characterId": "10000072",
+  "role": "Support / Sub DPS",
+  "tierRank": "A",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "A descendant of King Deshret with an amber left eye. The defender of Aaru Village.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "The duration of Prayer of the Crimson Crown effect triggered by Sacred Rite: Wagtail's Tide is increased by 3s.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "When Sacred Rite: Heron's Sanctum hits opponents, Candace's Max HP will be increased by 20% for 15s.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Sacred Rite: Wagtail's Tide by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "Shortens the Hold CD of Sacred Rite: Heron's Sanctum to be the same as that of the Tapping CD.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of Sacred Rite: Heron's Sanctum by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "When characters (excluding Candace herself) affected by the Prayer of the Crimson Crown caused by Sacred Rite: Wagtail's Tide deal Elemental DMG to opponents using Normal Attacks, an attack wave will be unleashed that deals AoE Hydro DMG equal to 15% of Candace's Max HP.\nThis effect can trigger once every 2.3s and is considered Elemental Burst DMG.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Staff of Homa",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "+66.2% CRIT DMG, +20% HP, and scaling ATK bonus."
+    },
+    {
+      "name": "Primordial Jade Winged-Spear",
+      "tier": "Standard Banner",
+      "rank": 2,
+      "reasoning": "High base ATK, CRIT Rate, and stacking damage bonuses."
+    },
+    {
+      "name": "The Catch",
+      "tier": "F2P",
+      "rank": 3,
+      "reasoning": "Top F2P weapon with +45.9% ER, +32% Burst DMG, and +12% Burst CRIT Rate."
+    },
+    {
+      "name": "Dragon's Bane",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "High Elemental Mastery with bonus damage to Pyro/Hydro affected targets."
+    },
+    {
+      "name": "Favonius Lance",
+      "tier": "Standard Banner",
+      "rank": 5,
+      "reasoning": "Reliable energy battery for the active wielder and party."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Heart of Depth",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "HP%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "HP% / ATK%",
+        "goblet": "Hydro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Hydro reaction damage and combat uptime."
+    },
+    {
+      "setName": "Golden Troupe",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "HP%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "HP% / ATK%",
+        "goblet": "Hydro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Sovereign Hypercarry",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000087",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000030",
+          "role": "Shielder"
+        }
+      ],
+      "rotation": "Furina E Q -> Zhongli Hold E -> Kazuha E Q -> Main DPS Charged Attacks",
+      "expectedDamage": "~85-115k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit Rate, Crit DMG, HP% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

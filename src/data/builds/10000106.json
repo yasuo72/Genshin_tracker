@@ -1,0 +1,148 @@
+{
+  "characterId": "10000106",
+  "role": "Main DPS",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "The Pyro Archon riding the Flamestrider motorbike for blazing mobile on-field attacks or off-field coordinated strikes.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Increases Nightsoul point transmission efficiency and grants partywide +20% ATK.",
+      "priority": "high"
+    },
+    {
+      "number": 2,
+      "summary": "Nightsoul attacks ignore 30% of enemy DEF and refund Energy.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases Elemental Skill level by 3.",
+      "priority": "medium"
+    },
+    {
+      "number": 4,
+      "summary": "Extends Nightsoul Blessing duration and increases Burst explosion radius.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases Elemental Burst level by 3.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Enables permanent Flamestrider overdrive with continuous CRIT bonuses and flame shockwaves.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "12513",
+      "name": "A Thousand Blazing Suns",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature claymore. Grants +28% CRIT DMG and increases ATK by 28% while entering Nightsoul's Blessing."
+    },
+    {
+      "weaponId": "12511",
+      "name": "Beacon of the Reed Sea",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "Provides +33.1% CRIT Rate, up to +40% ATK, and +32% HP."
+    },
+    {
+      "weaponId": "12429",
+      "name": "Earth Shaker",
+      "tier": "F2P",
+      "rank": 3,
+      "reasoning": "Natlan craftable claymore with +32% Skill DMG bonus on triggering Pyro reactions."
+    },
+    {
+      "weaponId": "12409",
+      "name": "Serpent Spine",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "Battle Pass claymore granting up to +50% all DMG dealt with active stacks."
+    },
+    {
+      "weaponId": "12401",
+      "name": "Favonius Greatsword",
+      "tier": "Standard Banner",
+      "rank": 5,
+      "reasoning": "Generates energy particles for smooth Burst availability."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Obsidian Codex",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate (to 50%)",
+        "ATK%",
+        "Elemental Mastery",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Pyro DMG Bonus",
+        "circlet": "Crit DMG"
+      },
+      "reasoning": "+40% CRIT Rate when consuming Nightsoul points on field."
+    },
+    {
+      "setName": "Scroll of the Hero of Cinder City",
+      "pieceCount": "4pc",
+      "role": "alternative",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate",
+        "ATK%",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Pyro DMG Bonus",
+        "circlet": "Crit DMG"
+      },
+      "reasoning": "+40% Elemental DMG bonus for party when played as off-field buffer."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Natlan Sovereign Forward Melt",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000106",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000107",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000103",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        }
+      ],
+      "rotation": "Xilonen E Q -> Citlali E Q -> Bennett E Q -> Mavuika E Q Flamestrider Combo",
+      "expectedDamage": "~80-110k avg per rotation"
+    }
+  ],
+  "notes": "Pairs exceptionally well with Natlan supports like Citlali and Xilonen to trigger rapid Nightsoul bursts.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

@@ -1,0 +1,144 @@
+{
+  "characterId": "10000031",
+  "role": "Support / Sub DPS",
+  "tierRank": "A",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Even when Oz is not present in combat, he can still watch over Fischl through his raven eyes. When Fischl performs a Normal Attack against an opponent, Oz fires a coordinated attack, dealing DMG equal to 22% of Fischl's ATK.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "When Nightrider is used, it deals an additional 200% ATK as DMG, and its AoE is increased by 50%.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Nightrider by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "When Midnight Phantasmagoria is used, it deals 222% of ATK as Electro DMG to surrounding opponents.\nWhen the skill duration ends, Fischl regenerates 20% of her HP.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of Midnight Phantasmagoria by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Extends the duration of Oz's presence on the field by 2s. Additionally, Oz performs coordinated attacks with your active character when present, dealing 30% of Fischl's ATK as Electro DMG.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Aqua Simulacra",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "+88.2% CRIT DMG, +16% HP, and unconditional +20% damage bonus."
+    },
+    {
+      "name": "Elegy for the End",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "High ER and teamwide EM and ATK buff upon triggering skills."
+    },
+    {
+      "name": "Favonius Warbow",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Premier energy generation weapon for consistent rotation uptime."
+    },
+    {
+      "name": "Sacrificial Bow",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "Resets skill cooldown for double energy particle generation."
+    },
+    {
+      "name": "Slingshot",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "Top 3★ budget CRIT Rate stat stick for on-field bow attackers."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Thundering Fury",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Energy Recharge",
+        "goblet": "Electro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Electro reaction damage and combat uptime."
+    },
+    {
+      "setName": "Emblem of Severed Fate",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Energy Recharge",
+        "goblet": "Electro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Aggravate Quickswap",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000052",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000073",
+          "role": "Enabler"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000078",
+          "role": "Healer"
+        }
+      ],
+      "rotation": "Nahida E Q -> Baizhu E Q -> Kazuha E Q -> Electro DPS Burst Combo",
+      "expectedDamage": "~75-100k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit Rate, Crit DMG, ATK% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

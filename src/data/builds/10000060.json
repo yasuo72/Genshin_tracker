@@ -1,0 +1,131 @@
+{
+  "characterId": "10000060",
+  "role": "Sub DPS",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "High-speed Hydro off-field DPS and damage ramp buffer with Exquisite Throw dice.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Lingering Lifeline gains 1 additional charge (massively lowers ER needs and boosts overworld exploration).",
+      "priority": "bis"
+    },
+    {
+      "number": 2,
+      "summary": "Exquisite Throw fires an extra water arrow dealing 14% of Yelan's Max HP every 1.8s (improves Hydro application).",
+      "priority": "high"
+    },
+    {
+      "number": 3,
+      "summary": "Increases Elemental Burst level by 3.",
+      "priority": "medium"
+    },
+    {
+      "number": 4,
+      "summary": "Increases all party members' Max HP by up to 40% based on enemies marked by Lifeline.",
+      "priority": "high"
+    },
+    {
+      "number": 5,
+      "summary": "Increases Elemental Skill level by 3.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Converts next 5 Normal Attacks after Burst into Breakthrough Barbs dealing massive AoE Hydro DMG.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "12510",
+      "name": "Aqua Simulacra",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature bow giving +88.2% CRIT DMG, +16% HP, and unconditional +20% DMG bonus."
+    },
+    {
+      "weaponId": "12401",
+      "name": "Favonius Warbow",
+      "tier": "Standard Banner",
+      "rank": 2,
+      "reasoning": "Top comfort weapon giving +61.3% ER and generating clear particles for smooth Burst uptime."
+    },
+    {
+      "weaponId": "12503",
+      "name": "Elegy for the End",
+      "tier": "Premium (Limited)",
+      "rank": 3,
+      "reasoning": "Support weapon giving +66.6% ER and buffing team with +100 EM and +20% ATK."
+    },
+    {
+      "weaponId": "12402",
+      "name": "Sacrificial Bow",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "Resets skill cooldown for extra particle generation."
+    },
+    {
+      "weaponId": "12301",
+      "name": "Slingshot",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "Budget 3★ CRIT Rate stat stick."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Emblem of Severed Fate",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Energy Recharge (to 180%)",
+        "Crit Rate",
+        "Crit DMG",
+        "HP%",
+        "Flat HP"
+      ],
+      "mainStats": {
+        "sands": "HP% / Energy Recharge",
+        "goblet": "Hydro DMG Bonus / HP%",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "+20% ER and converts ER into up to +75% Elemental Burst DMG."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Double Hydro Vape Core",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000046",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000060",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000025",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000030",
+          "role": "Shielder"
+        }
+      ],
+      "rotation": "Zhongli Hold E -> Xingqiu E Q -> Yelan E Q -> Hu Tao E Charged Attacks",
+      "expectedDamage": "~70-95k avg per rotation"
+    }
+  ],
+  "notes": "Requires ~180-200% Energy Recharge at C0 (or ~140-160% with Favonius / Double Hydro).",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

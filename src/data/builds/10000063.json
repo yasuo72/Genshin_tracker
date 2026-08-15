@@ -1,0 +1,144 @@
+{
+  "characterId": "10000063",
+  "role": "Main DPS / Sub DPS",
+  "tierRank": "S",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "An adepti disciple with a most unusual air about her. Having spent much time cultivating in isolation in Liyue's mountains, she has become every bit as cool and distant as the adepti themselves.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Spring Spirit Summoning can be used 1 more time.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "Divine Maiden's Deliverance lasts for 6 seconds longer. Active characters within the skill's field deal 15% increased Cryo CRIT DMG.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Spring Spirit Summoning by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "When characters under the effect of Icy Quill applied by Shenhe trigger its DMG Bonus effects, Shenhe will gain a Skyfrost Mantra stack:\n· When Shenhe uses Spring Spirit Summoning, she will consume all stacks of Skyfrost Mantra, increasing the DMG of that Spring Spirit Summoning by 5% for each stack consumed.\n· Max 50 stacks. Stacks last for 60s.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of Divine Maiden's Deliverance by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "When characters trigger Icy Quill's effects using Normal and Charged Attack DMG, it does not count toward the Trigger Quota.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Staff of Homa",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "+66.2% CRIT DMG, +20% HP, and scaling ATK bonus."
+    },
+    {
+      "name": "Primordial Jade Winged-Spear",
+      "tier": "Standard Banner",
+      "rank": 2,
+      "reasoning": "High base ATK, CRIT Rate, and stacking damage bonuses."
+    },
+    {
+      "name": "The Catch",
+      "tier": "F2P",
+      "rank": 3,
+      "reasoning": "Top F2P weapon with +45.9% ER, +32% Burst DMG, and +12% Burst CRIT Rate."
+    },
+    {
+      "name": "Dragon's Bane",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "High Elemental Mastery with bonus damage to Pyro/Hydro affected targets."
+    },
+    {
+      "name": "Favonius Lance",
+      "tier": "Standard Banner",
+      "rank": 5,
+      "reasoning": "Reliable energy battery for the active wielder and party."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Blizzard Strayer",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Cryo DMG Bonus",
+        "circlet": "Crit DMG / Crit Rate"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Cryo reaction damage and combat uptime."
+    },
+    {
+      "setName": "Marechaussee Hunter",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Cryo DMG Bonus",
+        "circlet": "Crit DMG / Crit Rate"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Blizzard Freeze Core",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000002",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000093",
+          "role": "Healer"
+        }
+      ],
+      "rotation": "Furina E Q -> Kazuha E Q -> Xianyun E Q -> Cryo DPS Burst Combo",
+      "expectedDamage": "~75-105k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit DMG, Crit Rate, ATK% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

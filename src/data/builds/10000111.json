@@ -1,0 +1,144 @@
+{
+  "characterId": "10000111",
+  "role": "Main DPS / Sub DPS",
+  "tierRank": "S",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "A laid-back orchard manager and warrior of the Collective of Plenty. An aspiring hero who hungers for justice... and lots and lots of food!",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "The effects of the Ascension Talent \"Tag-Team Triple Jump!\" are enhanced:\nWhen performing the Special Plunging Attack \"Thunderous Tornado Eruption,\" Varesa will also gain \"Rainbow Crash\" for 5s.\nWhen \"Rainbow Crash\" is in effect, Varesa's Plunging Attack ground impact DMG is increased by 180% of her ATK, whether she is in the Fiery Passion state or not. You must first unlock the Ascension Talent \"Tag-Team Triple Jump!\" to access the above effect.\n\nAdditionally, when Varesa is in the Sudden Onrush mode of her Nightsoul's Blessing, she consumes 30% less Nightsoul points or Phlogiston.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "Varesa will enter Apex Drive after using a Plunging Attack, regardless of whether she is in the Fiery Passion state or not.\nWhen Apex Drive is active, Varesa's interruption resistance will also further increase.\nAdditionally, Varesa will restore 11.5 Energy when her Plunging Attack ground impact hits an opponent.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Guardian Vent! by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "Varesa will receive various buffs based on her state when using her Elemental Burst Guardian Vent! If Varesa:\n· Has neither Fiery Passion nor Apex Drive active, she will gain Diligent Refinement for 15s, which will increase her Plunging Attack ground impact DMG by 500% of her ATK, with a maximum increase of 20,000 DMG. This effect will be canceled once the ground impact hits an opponent, or if its duration ends.\n· If she has either Fiery Passion or Apex Drive active, this instance of her Elemental Burst Guardian Vent! deals 100% increased DMG.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of Normal Attack: By the Horns by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Varesa restores 30 Energy when she enters Apex Drive.\nHer Plunging Attacks and Elemental Burst Guardian Vent! gain 10% CRIT Rate and 100% CRIT DMG.\nAdditionally, when Varesa uses the Hold version of her Elemental Skill Riding the Night-Rainbow, or Taps her Elemental Skill while in the Sudden Onrush mode, she will restore Nightsoul points up to her maximum.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Lost Prayer to the Sacred Winds",
+      "tier": "Standard Banner",
+      "rank": 1,
+      "reasoning": "High CRIT Rate, movement speed, and stacking Elemental DMG bonus."
+    },
+    {
+      "name": "Kagura's Verity",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "Huge CRIT DMG with stacking Elemental Skill damage buffs."
+    },
+    {
+      "name": "The Widsith",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Colossal CRIT DMG with powerful musical theme song buffs upon taking field."
+    },
+    {
+      "name": "Prototype Amber",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "Craftable catalyst providing HP% and teamwide healing plus energy refund on Burst."
+    },
+    {
+      "name": "Thrilling Tales of Dragon Slayers",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "3★ support weapon granting +48% ATK to the next character taking the field."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Thundering Fury",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Energy Recharge",
+        "goblet": "Electro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Electro reaction damage and combat uptime."
+    },
+    {
+      "setName": "Emblem of Severed Fate",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Energy Recharge",
+        "goblet": "Electro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Aggravate Quickswap",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000052",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000073",
+          "role": "Enabler"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000078",
+          "role": "Healer"
+        }
+      ],
+      "rotation": "Nahida E Q -> Baizhu E Q -> Kazuha E Q -> Electro DPS Burst Combo",
+      "expectedDamage": "~75-100k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit Rate, Crit DMG, ATK% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

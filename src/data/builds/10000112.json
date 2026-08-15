@@ -1,0 +1,144 @@
+{
+  "characterId": "10000112",
+  "role": "Main DPS / Sub DPS",
+  "tierRank": "S",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "The ex-head chef of Hotel Debord, renowned throughout Fontaine as the Patissiere Supreme and vanguard of precision gastronomy. Has incomparably strict standards when it comes to cooking.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "When 4 party members are Hydro or Cryo, all nearby party members will have their Cryo DMG CRIT DMG increased by 60% for 15s after Escoffier uses her Elemental Skill **Low-Temperature Cooking** or Elemental Burst **Scoring Cuts**.\nYou must first unlock the Ascension Talent \"Inspiration-Immersed Seasoning.\"",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "When Escoffier activates her Cooking Mek in its **Cold Storage Mode**, she will gain the \"Freshly-Prepped Delicacy\" effect for 15s. During this time, Escoffier will gain 5 Cold Dish stacks. When nearby active characters apart from Escoffier deal Cryo DMG with a Normal, Charged, or Plunging Attack, or an Elemental Skill or Elemental Burst, they will expend 1 Cold Dish stack to increase their DMG dealt by 240% of Escoffier's ATK.\nIf you hit multiple opponents with a single instance of Cryo DMG, Cold Dish stacks will be consumed based on the number of opponents hit.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of **Low-Temperature Cooking** by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "**Rehab Diet** lasts 6 more seconds. While it is active, you have a chance of healing 100% extra HP and restoring 2 Energy to Escoffier when you trigger healing through Rehab Diet. This chance corresponds to Escoffier's CRIT Rate. You can trigger this effect 7 times during any one Rehab Diet's duration.\nYou must first unlock the Ascension Talent \"Better to Salivate Than Medicate.\"",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of **Scoring Cuts** by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "**Cooking Mek: Cold Storage Mode** is enhanced:\n· When your party's active character's Normal, Charged, or Plunging Attacks hit opponents, Cooking Mek: Cold Storage Mode will fire off another Special-Grade Frosty Parfait, dealing 500% of Escoffier's ATK as AoE Cryo DMG. This DMG is considered Elemental Skill DMG.\nThis effect can be triggered once every 0.5s, and this effect can be triggered 6 times within the duration of one Cooking Mek: Cold Storage Mode.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Staff of Homa",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "+66.2% CRIT DMG, +20% HP, and scaling ATK bonus."
+    },
+    {
+      "name": "Primordial Jade Winged-Spear",
+      "tier": "Standard Banner",
+      "rank": 2,
+      "reasoning": "High base ATK, CRIT Rate, and stacking damage bonuses."
+    },
+    {
+      "name": "The Catch",
+      "tier": "F2P",
+      "rank": 3,
+      "reasoning": "Top F2P weapon with +45.9% ER, +32% Burst DMG, and +12% Burst CRIT Rate."
+    },
+    {
+      "name": "Dragon's Bane",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "High Elemental Mastery with bonus damage to Pyro/Hydro affected targets."
+    },
+    {
+      "name": "Favonius Lance",
+      "tier": "Standard Banner",
+      "rank": 5,
+      "reasoning": "Reliable energy battery for the active wielder and party."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Blizzard Strayer",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Cryo DMG Bonus",
+        "circlet": "Crit DMG / Crit Rate"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Cryo reaction damage and combat uptime."
+    },
+    {
+      "setName": "Marechaussee Hunter",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Cryo DMG Bonus",
+        "circlet": "Crit DMG / Crit Rate"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Blizzard Freeze Core",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000002",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000093",
+          "role": "Healer"
+        }
+      ],
+      "rotation": "Furina E Q -> Kazuha E Q -> Xianyun E Q -> Cryo DPS Burst Combo",
+      "expectedDamage": "~75-105k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit DMG, Crit Rate, ATK% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

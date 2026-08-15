@@ -1,0 +1,96 @@
+{
+  "characterId": "10000025",
+  "role": "Sub DPS",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "The backbone of Hydro reaction teams providing continuous Rain Swords, damage reduction, and micro-healing.",
+      "priority": "low"
+    },
+    {
+      "number": 2,
+      "summary": "Extends Burst duration by 3s and decreases Hydro RES of attacked enemies by 15%.",
+      "priority": "high"
+    },
+    {
+      "number": 6,
+      "summary": "Every third Rain Sword attack launches 5 swords and regenerates 3 Energy for Xingqiu.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "11403",
+      "name": "Sacrificial Sword",
+      "tier": "Standard Banner",
+      "rank": 1,
+      "reasoning": "80% chance to reset high cooldown Skill, providing two huge batches of energy particles."
+    },
+    {
+      "weaponId": "11401",
+      "name": "Favonius Sword",
+      "tier": "Standard Banner",
+      "rank": 2,
+      "reasoning": "Generates clear energy particles for the entire team."
+    },
+    {
+      "weaponId": "11505",
+      "name": "Primordial Jade Cutter",
+      "tier": "Premium (Limited)",
+      "rank": 3,
+      "reasoning": "Highest offensive DPS sword once Energy Recharge requirements are satisfied."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Emblem of Severed Fate",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Energy Recharge (to 180-200%)",
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "Energy Recharge / ATK%",
+        "goblet": "Hydro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "+20% ER and converts ER directly into Rain Sword Burst DMG."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "National Core",
+      "budget": "F2P",
+      "members": [
+        {
+          "characterId": "10000023",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000025",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        },
+        {
+          "characterId": "10000043",
+          "role": "Buffer"
+        }
+      ],
+      "rotation": "Xingqiu E Q E -> Bennett Q E -> Xiangling Q E -> Sucrose E Normal Attacks",
+      "expectedDamage": "~50-70k avg per rotation"
+    }
+  ],
+  "notes": "Sacrificial Sword is his true BiS weapon at R3+.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

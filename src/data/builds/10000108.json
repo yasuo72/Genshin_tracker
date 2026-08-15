@@ -1,0 +1,125 @@
+{
+  "characterId": "10000108",
+  "role": "Main DPS / Sub DPS",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Harbinger harnessing ethereal singing melodies for supreme continuous AoE damage and reaction triggers.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Increases song reverberation range and elemental damage amplification by 30%.",
+      "priority": "high"
+    },
+    {
+      "number": 2,
+      "summary": "Melodic resonance ignores 30% of enemy DEF and refunds Energy.",
+      "priority": "bis"
+    },
+    {
+      "number": 6,
+      "summary": "Enables celestial choir mode granting partywide +50% CRIT DMG and periodic lunar strikes.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "14515",
+      "name": "Starcaller's Watch",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature catalyst providing massive CRIT and teamwide resonance buff."
+    },
+    {
+      "weaponId": "14506",
+      "name": "Kagura's Verity",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "+66.2% CRIT DMG and stacking Elemental Skill buffs."
+    },
+    {
+      "weaponId": "14402",
+      "name": "The Widsith",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "High CRIT DMG with random high-value melody buffs."
+    },
+    {
+      "weaponId": "14406",
+      "name": "Prototype Amber",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "Energy battery and healing support."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Nighttime Whispers in the Echoing Woods",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Elemental Mastery",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Elemental Mastery",
+        "goblet": "Elemental DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Maximizes sustained elemental reverberation damage."
+    },
+    {
+      "setName": "Golden Troupe",
+      "pieceCount": "4pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Elemental DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "+70% off-field skill damage."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Celestial Symphony",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000108",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000030",
+          "role": "Shielder"
+        }
+      ],
+      "rotation": "Furina E Q -> Zhongli Hold E -> Kazuha E Q -> Columbina E Q Symphony Combo",
+      "expectedDamage": "~90-125k avg per rotation"
+    }
+  ],
+  "notes": "Synergizes with high-synergy off-field applicators to trigger continuous musical resonance bursts.",
+  "sources": [
+    "Fatui Harbinger Lore & Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

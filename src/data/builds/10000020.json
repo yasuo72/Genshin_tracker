@@ -1,0 +1,144 @@
+{
+  "characterId": "10000020",
+  "role": "Support / Sub DPS",
+  "tierRank": "A",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "Increases CRIT Rate against opponents with less than 30% HP by 10%.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Lightning Fang by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "When casting Claw and Thunder (Press), opponents hit will have their DEF decreased by 15% for 7s.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of Claw and Thunder by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as Electro DMG.\nWhen Razor is not using Lightning Fang, a lightning strike on an opponent will grant Razor an Electro Sigil for Claw and Thunder.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Beacon of the Reed Sea",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "+33.1% CRIT Rate and massive ATK bonuses upon using skill or taking damage."
+    },
+    {
+      "name": "Wolf's Gravestone",
+      "tier": "Standard Banner",
+      "rank": 2,
+      "reasoning": "Colossal ATK% stat stick with partywide ATK buff against low-health enemies."
+    },
+    {
+      "name": "Serpent Spine",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Battle Pass weapon providing up to +50% all DMG dealt at max stacks."
+    },
+    {
+      "name": "Earth Shaker",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "Natlan craftable claymore with Pyro reaction damage bonus."
+    },
+    {
+      "name": "Favonius Greatsword",
+      "tier": "Standard Banner",
+      "rank": 5,
+      "reasoning": "Generates clear energy particles for high Burst availability."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Thundering Fury",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Energy Recharge",
+        "goblet": "Electro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Electro reaction damage and combat uptime."
+    },
+    {
+      "setName": "Emblem of Severed Fate",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Energy Recharge",
+        "goblet": "Electro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Aggravate Quickswap",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000052",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000073",
+          "role": "Enabler"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000078",
+          "role": "Healer"
+        }
+      ],
+      "rotation": "Nahida E Q -> Baizhu E Q -> Kazuha E Q -> Electro DPS Burst Combo",
+      "expectedDamage": "~75-100k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit Rate, Crit DMG, ATK% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

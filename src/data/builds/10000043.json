@@ -1,0 +1,144 @@
+{
+  "characterId": "10000043",
+  "role": "Support / Sub DPS",
+  "tierRank": "A",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Astable Anemohypostasis Creation - 6308 gains 1 additional charge.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "The duration of Forbidden Creation - Isomer 75 / Type II is increased by 2s.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Astable Anemohypostasis Creation - 6308 by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "Sucrose will reduce the CD of Astable Anemohypostasis Creation - 6308 by 1-7s for every 7 Normal or Charged Attack hits she scores against opponents.\nOne hit may be counted every 0.1s.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of Forbidden Creation - Isomer 75 / Type II by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "If Forbidden Creation - Isomer 75 / Type II triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during its duration.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Lost Prayer to the Sacred Winds",
+      "tier": "Standard Banner",
+      "rank": 1,
+      "reasoning": "High CRIT Rate, movement speed, and stacking Elemental DMG bonus."
+    },
+    {
+      "name": "Kagura's Verity",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "Huge CRIT DMG with stacking Elemental Skill damage buffs."
+    },
+    {
+      "name": "The Widsith",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Colossal CRIT DMG with powerful musical theme song buffs upon taking field."
+    },
+    {
+      "name": "Prototype Amber",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "Craftable catalyst providing HP% and teamwide healing plus energy refund on Burst."
+    },
+    {
+      "name": "Thrilling Tales of Dragon Slayers",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "3★ support weapon granting +48% ATK to the next character taking the field."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Viridescent Venerer",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Elemental Mastery",
+        "Energy Recharge",
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "Elemental Mastery / ATK%",
+        "goblet": "Anemo DMG Bonus / Elemental Mastery",
+        "circlet": "Elemental Mastery / Crit Rate"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Anemo reaction damage and combat uptime."
+    },
+    {
+      "setName": "Desert Pavilion Chronicle",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Elemental Mastery",
+        "Energy Recharge",
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "Elemental Mastery / ATK%",
+        "goblet": "Anemo DMG Bonus / Elemental Mastery",
+        "circlet": "Elemental Mastery / Crit Rate"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Swirl / Hypercarry Anemo",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        },
+        {
+          "characterId": "10000060",
+          "role": "Sub DPS"
+        }
+      ],
+      "rotation": "Furina E Q -> Bennett Q E -> Yelan E Q -> Anemo Skill/Burst Swirl",
+      "expectedDamage": "~65-90k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Elemental Mastery, Energy Recharge, Crit Rate to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

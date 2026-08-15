@@ -1,0 +1,144 @@
+{
+  "characterId": "10000119",
+  "role": "Main DPS / Sub DPS",
+  "tierRank": "S",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "A Maiden blessed by moonlight and the grove alike, hope born to the Frostmoon Scions.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "After Lauma uses her Elemental Skill **Runo: Dawnless Rest of Karsikko** or her Elemental Burst **Runo: All Hearts Become the Beating Moon**, she will gain Threads of Life for 20s.\nDuring this time, when nearby party members trigger Lunar-Bloom reactions, nearby active characters will recover HP equal to 500% of Lauma's Elemental Mastery. This effect can be triggered once every 1.9s.\nAdditionally, the Stamina cost for Lauma's Spirit Envoy Form will be reduced by 40%, and its Max Duration will be extended by 5s.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "The Elemental Burst **Runo: All Hearts Become the Beating Moon** is enhanced:\n· **Pale Hymn** effects are increased: All nearby party members' Bloom, Hyperbloom, and Burgeon DMG is further increased by 500% of Lauma's Elemental Mastery, and their Lunar-Bloom DMG is further increased by 400% of Lauma's Elemental Mastery.\n\nMoonsign: Ascendant Gleam: All nearby party members' Lunar-Bloom DMG is increased by 40%.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of **Runo: All Hearts Become the Beating Moon** by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "When attacks from the **Frostgrove Sanctuary** summoned by her Elemental Skill **Runo: Dawnless Rest of Karsikko** hit opponents, Lauma will regain 4 Elemental Energy. This effect can be triggered once every 5s.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of **Runo: Dawnless Rest of Karsikko** by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "When the **Frostgrove Sanctuary** attacks opponents, it will deal 1 additional instance of AoE Dendro DMG equal to 185% of Lauma's Elemental Mastery. This DMG is considered Lunar-Bloom DMG. This instance of DMG will not consume any **Pale Hymn** stacks and will provide Lauma with 2 stacks of Pale Hymn, as well as refreshing the duration of Pale Hymn stacks gained in this manner.\nThis effect can occur up to 8 times during each Frostgrove Sanctuary. When using the Elemental Skill **Runo: Dawnless Rest of Karsikko**, all Pale Hymn stacks gained in this manner will be removed.\n\nAdditionally, when Lauma uses a Normal Attack while she has Pale Hymn stacks, she will consume 1 stack to convert this to deal Dendro DMG equal to 150% of her Elemental Mastery. This DMG is considered Lunar-Bloom DMG.\n\nMoonsign: Ascendant Gleam: All nearby party members' Lunar-Bloom DMG is **elevated** by 25%.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Lost Prayer to the Sacred Winds",
+      "tier": "Standard Banner",
+      "rank": 1,
+      "reasoning": "High CRIT Rate, movement speed, and stacking Elemental DMG bonus."
+    },
+    {
+      "name": "Kagura's Verity",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "Huge CRIT DMG with stacking Elemental Skill damage buffs."
+    },
+    {
+      "name": "The Widsith",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Colossal CRIT DMG with powerful musical theme song buffs upon taking field."
+    },
+    {
+      "name": "Prototype Amber",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "Craftable catalyst providing HP% and teamwide healing plus energy refund on Burst."
+    },
+    {
+      "name": "Thrilling Tales of Dragon Slayers",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "3★ support weapon granting +48% ATK to the next character taking the field."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Deepwood Memories",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Elemental Mastery",
+        "Crit Rate",
+        "Crit DMG",
+        "Energy Recharge",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "Elemental Mastery / ATK%",
+        "goblet": "Dendro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Dendro reaction damage and combat uptime."
+    },
+    {
+      "setName": "Gilded Dreams",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Elemental Mastery",
+        "Crit Rate",
+        "Crit DMG",
+        "Energy Recharge",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "Elemental Mastery / ATK%",
+        "goblet": "Dendro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Hyperbloom Spread Core",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000078",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000073",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000060",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000065",
+          "role": "Trigger"
+        }
+      ],
+      "rotation": "Nahida E Q -> Yelan E Q -> Kuki E -> Dendro DPS Skill/Mirror Attack",
+      "expectedDamage": "~70-95k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Elemental Mastery, Crit Rate, Crit DMG to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

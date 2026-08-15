@@ -1,0 +1,170 @@
+{
+  "characterId": "10000073",
+  "role": "Support",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "The Dendro Archon links up to 8 enemies with Tri-Karma Purification, delivering massive off-field Dendro damage and team EM buffs.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Adds 1 extra count to each elemental type for the Shrine of Maya Burst buff.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "Dendro core reactions (Bloom, Hyperbloom, Burgeon) can critically strike (20% CR, 100% CD), and Quicken/Spread shred 30% enemy DEF.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases Elemental Skill level by 3.",
+      "priority": "medium"
+    },
+    {
+      "number": 4,
+      "summary": "Increases Nahida's EM by up to 160 based on linked enemies.",
+      "priority": "low"
+    },
+    {
+      "number": 5,
+      "summary": "Increases Elemental Burst level by 3.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Attacking linked enemies after Burst deals up to 6 instances of 200% ATK + 400% EM AoE Dendro DMG.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "14509",
+      "name": "A Thousand Floating Dreams",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature catalyst. Grants +265 EM and partywide EM/DMG bonus buffs."
+    },
+    {
+      "weaponId": "14506",
+      "name": "Kagura's Verity",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "High CRIT DMG stat stick boosting Elemental Skill damage."
+    },
+    {
+      "weaponId": "14403",
+      "name": "Sacrificial Fragments",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Provides +221 EM and resets Skill cooldown."
+    },
+    {
+      "weaponId": "14302",
+      "name": "Magic Guide",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "Top 3★ F2P weapon giving +187 EM and +24% DMG against enemies affected by Hydro or Electro."
+    },
+    {
+      "weaponId": "14402",
+      "name": "The Widsith",
+      "tier": "Standard Banner",
+      "rank": 5,
+      "reasoning": "CRIT DMG catalyst with random massive offensive buffs."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Deepwood Memories",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Elemental Mastery (to 1000)",
+        "Crit Rate",
+        "Crit DMG",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "Elemental Mastery",
+        "goblet": "Elemental Mastery / Dendro DMG",
+        "circlet": "Crit Rate / Elemental Mastery"
+      },
+      "reasoning": "+15% Dendro DMG and shreds -30% Dendro RES for all party members on skill hits."
+    },
+    {
+      "setName": "Gilded Dreams",
+      "pieceCount": "4pc",
+      "role": "alternative",
+      "substats": [
+        "Elemental Mastery",
+        "Crit Rate",
+        "Crit DMG"
+      ],
+      "mainStats": {
+        "sands": "Elemental Mastery",
+        "goblet": "Dendro DMG",
+        "circlet": "Crit Rate"
+      },
+      "reasoning": "Used when another teammate (like Zhongli/Kuki) holds Deepwood Memories."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Alhaitham Quickbloom",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000078",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000073",
+          "role": "Support"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000065",
+          "role": "Healer"
+        }
+      ],
+      "rotation": "Nahida E Q -> Furina E Q -> Kuki E -> Alhaitham Hold E Plunge + Normal Attack combos",
+      "expectedDamage": "~75-100k avg per rotation"
+    },
+    {
+      "name": "Nilou Bountiful Superbloom",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000070",
+          "role": "Support"
+        },
+        {
+          "characterId": "10000073",
+          "role": "Support"
+        },
+        {
+          "characterId": "10000054",
+          "role": "Healer"
+        },
+        {
+          "characterId": "10000067",
+          "role": "Sub DPS"
+        }
+      ],
+      "rotation": "Nahida E Q -> Nilou 3x E -> Kokomi E -> Collei E Q -> Kokomi Normal Attacks",
+      "expectedDamage": "~65-85k AoE avg per rotation"
+    }
+  ],
+  "notes": "Aim for 800-1000 total Elemental Mastery to maximize both her passive A4 CRIT conversion and team EM buff.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

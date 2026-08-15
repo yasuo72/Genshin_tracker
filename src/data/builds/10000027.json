@@ -1,0 +1,144 @@
+{
+  "characterId": "10000027",
+  "role": "Support / Sub DPS",
+  "tierRank": "A",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "When a Normal Attack hits, it deals AoE DMG.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "When Jade Screen is shattered, its CD will reset.\nCan occur once every 6s.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Starshatter by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "Jade Screen increases nearby characters' Elemental RES by 10%.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of Jade Screen by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "When Starshatter is used, Ningguang gains 7 Star Jades.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Lost Prayer to the Sacred Winds",
+      "tier": "Standard Banner",
+      "rank": 1,
+      "reasoning": "High CRIT Rate, movement speed, and stacking Elemental DMG bonus."
+    },
+    {
+      "name": "Kagura's Verity",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "Huge CRIT DMG with stacking Elemental Skill damage buffs."
+    },
+    {
+      "name": "The Widsith",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Colossal CRIT DMG with powerful musical theme song buffs upon taking field."
+    },
+    {
+      "name": "Prototype Amber",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "Craftable catalyst providing HP% and teamwide healing plus energy refund on Burst."
+    },
+    {
+      "name": "Thrilling Tales of Dragon Slayers",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "3★ support weapon granting +48% ATK to the next character taking the field."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Husk of Opulent Dreams",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "DEF%",
+        "Energy Recharge",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "DEF% / ATK%",
+        "goblet": "Geo DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Geo reaction damage and combat uptime."
+    },
+    {
+      "setName": "Scroll of the Hero of Cinder City",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "DEF%",
+        "Energy Recharge",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "DEF% / ATK%",
+        "goblet": "Geo DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Mono Geo Resonance",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000057",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000030",
+          "role": "Shielder"
+        },
+        {
+          "characterId": "10000055",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        }
+      ],
+      "rotation": "Zhongli Hold E -> Gorou E Q -> Bennett Q -> Geo DPS Burst Combo",
+      "expectedDamage": "~70-95k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit Rate, Crit DMG, DEF% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

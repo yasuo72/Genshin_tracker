@@ -1,0 +1,144 @@
+{
+  "characterId": "10000127",
+  "role": "Support / Sub DPS",
+  "tierRank": "A",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Member of the investigation squad, the Nightmare Orioles. The youngest squad leader among the Lightkeepers.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "After Illuga triggers a Geo-related Reaction on the field, he will regain 12 Elemental Energy. This effect can be triggered at most once every 15s.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "When Elemental Burst **Shadowless Reflection**'s Haunted Night's Oriole-Song effect is active, for every 7 stacks of **Nightingale's Song** consumed, Illuga will summon Aedon, dealing a single instance of Geo DMG to 1 nearby opponent. The DMG dealt is based on 400% of Illuga's Elemental Mastery and 200% of his DEF. This DMG is considered Elemental Burst DMG.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Elemental Burst **Shadowless Reflection** by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "When Elemental Burst **Shadowless Reflection**'s Haunted Night's Oriole-Song effect is active, nearby active party members will have their DEF increased by 200.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of Elemental Skill **Dawnbearing Songbird** by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Enhances the Lightkeeper's Oath effect of the Ascension Talent **Torchforger's Covenant**: For Geo DMG dealt to opponents, CRIT Rate is increased by 10%, CRIT DMG is increased by 30%.\n\nMoonsign: Ascendant Gleam:\nWhen characters are affected by Lightkeeper's Oath, Elemental Mastery is increased by 80.\nYou must first unlock the Ascension Talent \"Torchforger's Covenant.\"",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Staff of Homa",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "+66.2% CRIT DMG, +20% HP, and scaling ATK bonus."
+    },
+    {
+      "name": "Primordial Jade Winged-Spear",
+      "tier": "Standard Banner",
+      "rank": 2,
+      "reasoning": "High base ATK, CRIT Rate, and stacking damage bonuses."
+    },
+    {
+      "name": "The Catch",
+      "tier": "F2P",
+      "rank": 3,
+      "reasoning": "Top F2P weapon with +45.9% ER, +32% Burst DMG, and +12% Burst CRIT Rate."
+    },
+    {
+      "name": "Dragon's Bane",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "High Elemental Mastery with bonus damage to Pyro/Hydro affected targets."
+    },
+    {
+      "name": "Favonius Lance",
+      "tier": "Standard Banner",
+      "rank": 5,
+      "reasoning": "Reliable energy battery for the active wielder and party."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Husk of Opulent Dreams",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "DEF%",
+        "Energy Recharge",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "DEF% / ATK%",
+        "goblet": "Geo DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Geo reaction damage and combat uptime."
+    },
+    {
+      "setName": "Scroll of the Hero of Cinder City",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "DEF%",
+        "Energy Recharge",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "DEF% / ATK%",
+        "goblet": "Geo DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Mono Geo Resonance",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000057",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000030",
+          "role": "Shielder"
+        },
+        {
+          "characterId": "10000055",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        }
+      ],
+      "rotation": "Zhongli Hold E -> Gorou E Q -> Bennett Q -> Geo DPS Burst Combo",
+      "expectedDamage": "~70-95k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit Rate, Crit DMG, DEF% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

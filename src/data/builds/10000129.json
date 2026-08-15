@@ -1,0 +1,144 @@
+{
+  "characterId": "10000129",
+  "role": "Main DPS / Sub DPS",
+  "tierRank": "S",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Vice Captain of the Knights of Favonius Ranged Company, a knight known for his unorthodox approach and fondness for unconventional tactics.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Lohen's maximum **Will to Win** limit is increased to 300% of its original value.\nAdditionally, when other nearby party members deal DMG while Lohen is in **Masterstroke** mode, they accumulate 500% as much Will to Win for him as they originally would have.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "When in **Masterstroke** mode, after the special Elemental Skill **Etched Into Bone and Soul** hits an opponent or the Elemental Burst Manifest Judgment is unleashed, Lohen gains \"Evilsbane Blade\" for 4s: The next time Lohen hits an opponent with a Normal or Charged Attack while in Masterstroke mode, he will follow up with an additional strike that deals AoE Cryo DMG equal to 500% of his ATK, and increase the Elemental Mastery of other nearby party members by 200 for 8s. Evilsbane Blade can be triggered once every 4s.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of **Unforeseen Strike** by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "When Lohen unleashes the Elemental Burst Manifest Judgment while in **Masterstroke** mode, his **Will to Win** will be maxed out, causing this instance of his Elemental Burst to gain the maximum possible DMG increase.\n\nAdditionally, when Lohen switches to Masterstroke mode, the following will occur depending on how much Elemental Energy he has:\n· When Elemental Energy is not full: Lohen recovers 15 Elemental Energy.\n· When Elemental Energy is full: If, during the next 15s, Lohen unleashes the Elemental Burst Manifest Judgment, he will recover 15 Elemental Energy.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of **Manifest Judgment** by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Using the special Elemental Skill **Etched Into Bone and Soul** and hitting an opponent with it or, while **Masterstroke** mode is active, unleashing the Elemental Burst Manifest Judgment, will not consume any **Will to Win**. Instead, Lohen's **Joy** will be maxed out, and if he hits an opponent the next time he uses the special Elemental Skill Etched Into Bone and Soul, the duration of this instance of Masterstroke will be extended by 1.25s. This effect can be triggered once every 7s.\nAdditionally, the CRIT DMG of all the DMG described above is increased by 175%, and the number of times Lohen can unleash Etched Into Bone and Soul during this instance of Masterstroke is increased by 2.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Staff of Homa",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "+66.2% CRIT DMG, +20% HP, and scaling ATK bonus."
+    },
+    {
+      "name": "Primordial Jade Winged-Spear",
+      "tier": "Standard Banner",
+      "rank": 2,
+      "reasoning": "High base ATK, CRIT Rate, and stacking damage bonuses."
+    },
+    {
+      "name": "The Catch",
+      "tier": "F2P",
+      "rank": 3,
+      "reasoning": "Top F2P weapon with +45.9% ER, +32% Burst DMG, and +12% Burst CRIT Rate."
+    },
+    {
+      "name": "Dragon's Bane",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "High Elemental Mastery with bonus damage to Pyro/Hydro affected targets."
+    },
+    {
+      "name": "Favonius Lance",
+      "tier": "Standard Banner",
+      "rank": 5,
+      "reasoning": "Reliable energy battery for the active wielder and party."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Blizzard Strayer",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Cryo DMG Bonus",
+        "circlet": "Crit DMG / Crit Rate"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Cryo reaction damage and combat uptime."
+    },
+    {
+      "setName": "Marechaussee Hunter",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Cryo DMG Bonus",
+        "circlet": "Crit DMG / Crit Rate"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Blizzard Freeze Core",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000002",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000093",
+          "role": "Healer"
+        }
+      ],
+      "rotation": "Furina E Q -> Kazuha E Q -> Xianyun E Q -> Cryo DPS Burst Combo",
+      "expectedDamage": "~75-105k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit DMG, Crit Rate, ATK% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

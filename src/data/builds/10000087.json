@@ -1,0 +1,213 @@
+{
+  "characterId": "10000087",
+  "role": "Main DPS",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Dominant Hydro beam DPS channeling continuous AoE damage across the entire battlefield.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Grants full interruption resistance during Charged Attack beam channeling and gives 1 free Past Draconic Glories stack.",
+      "priority": "bis"
+    },
+    {
+      "number": 2,
+      "summary": "Increases CRIT DMG of Equitable Judgment by up to 42% based on Draconic Glories stacks.",
+      "priority": "high"
+    },
+    {
+      "number": 3,
+      "summary": "Increases Normal Attack talent level by 3 (his primary beam scaling!).",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "Generates 1 additional Sourcewater Droplet when receiving healing while on-field.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases Elemental Burst level by 3.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Continuously absorbs nearby droplets to extend beam channeling duration indefinitely and fires two secondary torrents.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "14513",
+      "name": "Tome of the Eternal Flow",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature catalyst. Grants +16% Max HP, +42% Charged Attack DMG, and refunds 8 Energy upon HP fluctuation."
+    },
+    {
+      "weaponId": "14424",
+      "name": "Sacrificial Jade",
+      "tier": "Standard Banner",
+      "rank": 2,
+      "reasoning": "Battle Pass weapon giving +36.8% CRIT Rate, up to +64% Max HP, and 80 EM when off-field for 5s."
+    },
+    {
+      "weaponId": "14406",
+      "name": "Prototype Amber",
+      "tier": "F2P",
+      "rank": 3,
+      "reasoning": "Craftable catalyst providing +41.3% HP, restoring 18 Energy and healing the entire party for 18% Max HP on Burst."
+    },
+    {
+      "weaponId": "14428",
+      "name": "Ash-Graven Drinking Horn",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "Natlan event catalyst giving high HP% and dealing AoE damage based on 80% of Max HP."
+    },
+    {
+      "weaponId": "14502",
+      "name": "Lost Prayer to the Sacred Winds",
+      "tier": "Premium (Limited)",
+      "rank": 5,
+      "reasoning": "Provides +33.1% CRIT Rate, +10% Movement Speed, and stacking Elemental DMG bonus."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Marechaussee Hunter",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate (to 64%)",
+        "HP%",
+        "Energy Recharge (120%)",
+        "Flat HP"
+      ],
+      "mainStats": {
+        "sands": "HP%",
+        "goblet": "Hydro DMG Bonus / HP%",
+        "circlet": "Crit DMG"
+      },
+      "reasoning": "+15% Charged Attack DMG and +36% free CRIT Rate as Neuvillette constantly drains and heals HP during beam channeling."
+    },
+    {
+      "setName": "Heart of Depth",
+      "pieceCount": "4pc",
+      "role": "alternative",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate",
+        "HP%",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "HP%",
+        "goblet": "Hydro DMG Bonus",
+        "circlet": "Crit DMG / Crit Rate"
+      },
+      "reasoning": "+15% Hydro DMG and +30% Charged Attack DMG after casting Skill."
+    },
+    {
+      "setName": "Marechaussee Hunter + Tenacity / Vourukasha",
+      "pieceCount": "2pc+2pc",
+      "role": "budget",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate",
+        "HP%",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "HP%",
+        "goblet": "HP%",
+        "circlet": "Crit DMG"
+      },
+      "reasoning": "Flexible 2pc HP + 2pc Normal/Charged combo for early building."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Fontaine Sovereign Hypercarry",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000087",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000078",
+          "role": "Healer"
+        }
+      ],
+      "rotation": "Neuvillette E -> Furina E Q -> Kazuha E Q -> Baizhu E Q -> Neuvillette Q 3x Charged Attack Beam",
+      "expectedDamage": "~80-110k avg per rotation at C0R1"
+    },
+    {
+      "name": "Zhongli Interruption Shield Core",
+      "budget": "Mixed",
+      "members": [
+        {
+          "characterId": "10000087",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000030",
+          "role": "Shielder"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000031",
+          "role": "Sub DPS"
+        }
+      ],
+      "rotation": "Neuvillette E -> Zhongli Hold E -> Kazuha E Q -> Fischl E -> Neuvillette Q Charged Attacks",
+      "expectedDamage": "~60-80k avg per rotation"
+    },
+    {
+      "name": "F2P Accessible Sovereign",
+      "budget": "F2P",
+      "members": [
+        {
+          "characterId": "10000087",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000031",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000083",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000074",
+          "role": "Shielder"
+        }
+      ],
+      "rotation": "Layla E Q -> Lynette E Q -> Fischl E -> Neuvillette E Q Charged Attacks",
+      "expectedDamage": "~45-60k avg per rotation"
+    }
+  ],
+  "notes": "Never use ATK weapons or ATK sands on Neuvillette — all his beam damage scales purely from Max HP.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

@@ -1,0 +1,120 @@
+{
+  "characterId": "10000000",
+  "role": "Main DPS",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Baseline performance at C0. Fully functional with core mechanics intact.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Significant quality of life enhancement and damage ramp.",
+      "priority": "high"
+    },
+    {
+      "number": 2,
+      "summary": "Major power spike with huge damage multiplier or defense shred.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases Elemental Burst level by 3.",
+      "priority": "medium"
+    },
+    {
+      "number": 4,
+      "summary": "Team utility or energy generation buff.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases Elemental Skill level by 3.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Transformative endgame constellation enabling maximum overdrive power.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "11501",
+      "name": "Signature 5★ Weapon",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Best-in-slot signature weapon providing optimal stat scaling and synergistic passive."
+    },
+    {
+      "weaponId": "11401",
+      "name": "Top 4★ Gacha Weapon",
+      "tier": "Standard Banner",
+      "rank": 2,
+      "reasoning": "Strong standard/gacha alternative with high CRIT/ATK stat value."
+    },
+    {
+      "weaponId": "11402",
+      "name": "Top 4★ Craftable Weapon",
+      "tier": "F2P",
+      "rank": 3,
+      "reasoning": "Easily craftable blacksmith weapon providing reliable scaling without wishing."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Primary 4-Piece Set",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": ["Crit Rate", "Crit DMG", "ATK% / HP%", "Energy Recharge"],
+      "mainStats": {
+        "sands": "ATK% / HP%",
+        "goblet": "Elemental DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Offers the highest theoretical damage ceiling when conditions are met."
+    },
+    {
+      "setName": "Alternative 4-Piece / 2pc+2pc Set",
+      "pieceCount": "2pc+2pc",
+      "role": "budget",
+      "substats": ["Crit Rate", "Crit DMG", "Energy Recharge", "ATK%"],
+      "mainStats": {
+        "sands": "Energy Recharge / ATK%",
+        "goblet": "Elemental DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Flexible starter/transition set for easy stat optimization."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Hypercarry Premium Core",
+      "budget": "Premium",
+      "members": [
+        { "characterId": "10000000", "role": "Main DPS" },
+        { "characterId": "10000089", "role": "Sub DPS" },
+        { "characterId": "10000047", "role": "Buffer" },
+        { "characterId": "10000030", "role": "Shielder" }
+      ],
+      "rotation": "Support E Q -> Buffer E Q -> Sub DPS E Q -> Main DPS Combo",
+      "expectedDamage": "~60-80k avg per rotation at C0R1"
+    },
+    {
+      "name": "F2P Reaction Accessible",
+      "budget": "F2P",
+      "members": [
+        { "characterId": "10000000", "role": "Main DPS" },
+        { "characterId": "10000025", "role": "Sub DPS" },
+        { "characterId": "10000023", "role": "Sub DPS" },
+        { "characterId": "10000032", "role": "Support" }
+      ],
+      "rotation": "Bennett Q E -> Xiangling Q E -> Xingqiu Q E -> Main DPS On-field",
+      "expectedDamage": "~40-55k avg per rotation with 4-star weapons"
+    }
+  ],
+  "notes": "Original theorycrafting consensus build guide.",
+  "sources": ["Genshin Impact Fandom Wiki", "Theorycraft Community Consensus"],
+  "lastUpdated": "2026-08-16"
+}

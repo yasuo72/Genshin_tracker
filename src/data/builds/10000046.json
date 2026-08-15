@@ -1,0 +1,148 @@
+{
+  "characterId": "10000046",
+  "role": "Main DPS",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Premier single-target Pyro hypercarry using Guide to Afterlife for massive infused Charged Attacks.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Charged Attacks in Paramita Papilio state no longer consume Stamina (massive mobility and DPS boost).",
+      "priority": "bis"
+    },
+    {
+      "number": 2,
+      "summary": "Increases Blood Blossom DMG by 10% of Max HP and applies it via Burst.",
+      "priority": "medium"
+    },
+    {
+      "number": 3,
+      "summary": "Increases Elemental Skill level by 3.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "Defeating an enemy affected by Blood Blossom grants +12% CRIT Rate to all teammates.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases Elemental Burst level by 3.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Prevents death when HP drops below 25%, granting +100% CRIT Rate and +200% all RES for 10s.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "13501",
+      "name": "Staff of Homa",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature polearm providing +66.2% CRIT DMG, +20% HP, and massive ATK scaling from Max HP."
+    },
+    {
+      "weaponId": "13507",
+      "name": "Staff of the Scarlet Sands",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "Converts Elemental Mastery into huge ATK buffs with +44.1% CRIT Rate."
+    },
+    {
+      "weaponId": "13401",
+      "name": "Dragon's Bane",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Top 4-star weapon giving +221 EM and +36% DMG against enemies affected by Hydro or Pyro."
+    },
+    {
+      "weaponId": "13424",
+      "name": "Ballad of the Fjords",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "Battle Pass polearm giving +27.6% CRIT Rate and +240 EM in 3-element teams."
+    },
+    {
+      "weaponId": "13301",
+      "name": "White Tassel",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "3★ chest weapon giving CRIT Rate and +48% Normal Attack DMG."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Crimson Witch of Flames",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "Elemental Mastery",
+        "HP%",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "HP% / Elemental Mastery",
+        "goblet": "Pyro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "+15% Pyro DMG and +15% Vaporize reaction DMG bonus."
+    },
+    {
+      "setName": "Shimenawa's Reminiscence",
+      "pieceCount": "4pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "Elemental Mastery",
+        "HP%"
+      ],
+      "mainStats": {
+        "sands": "HP%",
+        "goblet": "Pyro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Consumes 15 energy on skill cast to grant colossal +50% Normal/Charged Attack DMG."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Double Hydro Core",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000046",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000060",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000025",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000030",
+          "role": "Shielder"
+        }
+      ],
+      "rotation": "Zhongli Hold E -> Xingqiu E Q -> Yelan E Q -> Hu Tao E Charged Attacks",
+      "expectedDamage": "~70-95k avg per rotation"
+    }
+  ],
+  "notes": "Keep HP under 50% to trigger her passive +33% Pyro DMG bonus when not paired with Furina.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

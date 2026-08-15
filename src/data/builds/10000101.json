@@ -1,0 +1,172 @@
+{
+  "characterId": "10000101",
+  "role": "Main DPS",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Nightsoul grappling-hook hypercarry firing massive Scalespiker Cannon shots during Nightsoul's Blessing.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Grants +100% Scalespiker Cannon CRIT DMG and increases movement speed after grappling.",
+      "priority": "bis"
+    },
+    {
+      "number": 2,
+      "summary": "Decreases enemies' Dendro RES by 30% and massively expands Cannon AoE.",
+      "priority": "high"
+    },
+    {
+      "number": 3,
+      "summary": "Increases Elemental Skill level by 3.",
+      "priority": "medium"
+    },
+    {
+      "number": 4,
+      "summary": "Regenerates 5 Nightsoul points and grants +70% Burst DMG.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases Elemental Burst level by 3.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Scalespiker Cannon bounces between targets, dealing 700% ATK extra damage.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "12512",
+      "name": "Fang of the Mountain King",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature claymore granting +33.1% CRIT Rate and up to +48% Skill & Burst DMG via Burning/Burgeon."
+    },
+    {
+      "weaponId": "12511",
+      "name": "Beacon of the Reed Sea",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "Provides +33.1% CRIT Rate and +40% ATK bonuses."
+    },
+    {
+      "weaponId": "12429",
+      "name": "Earth Shaker",
+      "tier": "F2P",
+      "rank": 3,
+      "reasoning": "Natlan craftable claymore giving +32% Skill DMG bonus on triggering Pyro reactions."
+    },
+    {
+      "weaponId": "12409",
+      "name": "Serpent Spine",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "Battle Pass claymore granting up to +50% all DMG dealt."
+    },
+    {
+      "weaponId": "12401",
+      "name": "Favonius Greatsword",
+      "tier": "Standard Banner",
+      "rank": 5,
+      "reasoning": "Battery option for team energy."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Obsidian Codex",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate (to 50%)",
+        "ATK%",
+        "Elemental Mastery",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Dendro DMG Bonus",
+        "circlet": "Crit DMG"
+      },
+      "reasoning": "+40% CRIT Rate when consuming Nightsoul points on field (BiS set by far)."
+    },
+    {
+      "setName": "Unfinished Reverie",
+      "pieceCount": "4pc",
+      "role": "alternative",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate",
+        "ATK%",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Dendro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "+50% DMG when enemies are Burning."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Natlan Burning Cannon",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000101",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000106",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000099",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Buffer"
+        }
+      ],
+      "rotation": "Bennett Q E -> Emilie E Q -> Mavuika E Q -> Kinich E Grapple Scalespiker Combo",
+      "expectedDamage": "~85-115k avg per rotation"
+    },
+    {
+      "name": "F2P Burgeon Core",
+      "budget": "F2P",
+      "members": [
+        {
+          "characterId": "10000101",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000023",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000025",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        }
+      ],
+      "rotation": "Xingqiu Q E -> Bennett Q E -> Xiangling Q E -> Kinich E Scalespiker",
+      "expectedDamage": "~60-80k avg per rotation"
+    }
+  ],
+  "notes": "Pair with a consistent Pyro applier (Mavuika, Xiangling, Thoma, Dehya) to maintain Burning and charge Nightsoul points rapidly!",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

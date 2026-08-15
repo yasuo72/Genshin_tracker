@@ -1,0 +1,168 @@
+{
+  "characterId": "10000049",
+  "role": "Main DPS / Sub DPS",
+  "tierRank": "S",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Owner of Naganohara Fireworks. Known as the \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "The Aurous Blaze created by Ryuukin Saxifrage lasts for an extra 4s.\nAdditionally, when an opponent affected by Aurous Blaze is defeated within its duration, Yoimiya's ATK is increased by 20% for 20s.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "When Yoimiya's Pyro DMG scores a CRIT Hit, Yoimiya will gain a 25% Pyro DMG Bonus for 6s.\nThis effect can be triggered even when Yoimiya is not the active character.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Niwabi Fire-Dance by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "When Yoimiya's own Aurous Blaze triggers an explosion, Niwabi Fire-Dance's CD is decreased by 1.2s.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of Ryuukin Saxifrage by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "During Niwabi Fire-Dance, Yoimiya's Normal Attacks have a 50% chance of firing an extra Blazing Arrow that deals 60% of its original DMG. This DMG is considered Normal Attack DMG.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Aqua Simulacra",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "+88.2% CRIT DMG, +16% HP, and unconditional +20% damage bonus."
+    },
+    {
+      "name": "Elegy for the End",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "High ER and teamwide EM and ATK buff upon triggering skills."
+    },
+    {
+      "name": "Favonius Warbow",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Premier energy generation weapon for consistent rotation uptime."
+    },
+    {
+      "name": "Sacrificial Bow",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "Resets skill cooldown for double energy particle generation."
+    },
+    {
+      "name": "Slingshot",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "Top 3★ budget CRIT Rate stat stick for on-field bow attackers."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Crimson Witch of Flames",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Elemental Mastery",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Elemental Mastery",
+        "goblet": "Pyro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Pyro reaction damage and combat uptime."
+    },
+    {
+      "setName": "Obsidian Codex",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Elemental Mastery",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Elemental Mastery",
+        "goblet": "Pyro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Vaporize Hypercarry",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000046",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000060",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000030",
+          "role": "Shielder"
+        }
+      ],
+      "rotation": "Zhongli Hold E -> Kazuha E Q -> Yelan E Q -> Main DPS Skill Combo",
+      "expectedDamage": "~70-95k avg per rotation"
+    },
+    {
+      "name": "F2P National Core",
+      "budget": "F2P",
+      "members": [
+        {
+          "characterId": "10000023",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000025",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        },
+        {
+          "characterId": "10000043",
+          "role": "Buffer"
+        }
+      ],
+      "rotation": "Bennett Q E -> Sucrose E Q -> Xiangling Q E -> Xingqiu Q E",
+      "expectedDamage": "~50-70k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit Rate, Crit DMG, ATK% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

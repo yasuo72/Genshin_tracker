@@ -1,0 +1,133 @@
+{
+  "characterId": "10000098",
+  "role": "Main DPS",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Champion Duelist weaving rapid gunshots and thrusts powered by Bond of Life.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Normal Attacks spawn Shadow Piercer strikes dealing 30% ATK Electro DMG.",
+      "priority": "high"
+    },
+    {
+      "number": 2,
+      "summary": "Increases interruption resistance and max ATK bonus from reactions by 60%.",
+      "priority": "bis"
+    },
+    {
+      "number": 6,
+      "summary": "Casting Skill grants +10% CRIT Rate, +70% CRIT DMG, and -80% DMG taken with counter-attacks.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "11514",
+      "name": "Absolution",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature sword giving +44.1% CRIT DMG, +20% CRIT DMG, and +48% DMG on Bond of Life increase."
+    },
+    {
+      "weaponId": "11509",
+      "name": "Mistsplitter Reforged",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "High Base ATK, CRIT DMG, and stacking Electro DMG bonus."
+    },
+    {
+      "weaponId": "11426",
+      "name": "Finale of the Deep",
+      "tier": "F2P",
+      "rank": 3,
+      "reasoning": "Fontaine craftable sword providing ATK% and Bond of Life flat ATK buffs."
+    },
+    {
+      "weaponId": "11409",
+      "name": "The Black Sword",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "Battle Pass sword providing CRIT Rate and Normal Attack DMG."
+    },
+    {
+      "weaponId": "11301",
+      "name": "Harbinger of Dawn",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "High CRIT Rate and CRIT DMG budget 3★ weapon."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Fragment of Harmonic Whimsy",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate (to 70%)",
+        "ATK%",
+        "Elemental Mastery",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Electro DMG Bonus",
+        "circlet": "Crit DMG / Crit Rate"
+      },
+      "reasoning": "+54% all DMG when Bond of Life value increases or decreases (Tailored BiS set)."
+    },
+    {
+      "setName": "Gladiator's Finale",
+      "pieceCount": "4pc",
+      "role": "alternative",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate",
+        "ATK%",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Electro DMG Bonus",
+        "circlet": "Crit DMG / Crit Rate"
+      },
+      "reasoning": "+18% ATK and +35% Normal Attack DMG."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Aggravate Duelist",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000098",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000073",
+          "role": "Enabler"
+        },
+        {
+          "characterId": "10000031",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        }
+      ],
+      "rotation": "Nahida E Q -> Fischl E -> Kazuha E Q -> Clorinde E Gunshot-Thrust Combo",
+      "expectedDamage": "~75-105k avg per rotation"
+    }
+  ],
+  "notes": "Her passive already grants +20% CRIT Rate from reactions, so don't overcap on CRIT Rate (keep raw artifacts under 80%)!",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

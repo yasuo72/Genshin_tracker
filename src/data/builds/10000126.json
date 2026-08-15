@@ -1,0 +1,144 @@
+{
+  "characterId": "10000126",
+  "role": "Main DPS / Sub DPS",
+  "tierRank": "S",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "The White Horse Adeptus from Liyue's legends, known as Zibai. The most mysterious figure in Liyue's myths.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "After using the Elemental Skill **Heaven and Earth Made Manifest**, Zibai will immediately gain 100 **Phase Shift Radiance**, and the max number of Spirit Steed's Stride usages per Lunar Phase Shift mode is increased to 5 times.\nAdditionally, each time you switch to the Lunar Phase Shift mode, the first Spirit Steed's Stride's 2nd-hit Lunar-Crystallize Reaction DMG is increased by 220%.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "When in the **Lunar Phase Shift** mode, all nearby party members' Lunar-Crystallize Reaction DMG is increased by 30%.\n\nMoonsign: Ascendant Gleam: Ascension Talent **The Selenic Adeptus Descends** is enhanced: the DMG dealt by the 2nd hit of Spirit Steed's Stride is further increased by 550% of Zibai's DEF. You must first unlock the Ascension Talent \"The Selenic Adeptus Descends.\"",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Elemental Skill **Heaven and Earth Made Manifest** by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "While in the **Lunar Phase Shift** mode, Zibai's Normal Attack sequence will not reset, and when Spirit Steed's Stride hits opponents, Zibai will gain the \"Scattermoon Splendor\" effect: The next time she uses Normal Attacks, the additional attack from her 4th hit will deal 250% of the original damage as Lunar-Crystallize Reaction DMG.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of **Tri-Sphere Eminence** by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "While Zibai is in the **Lunar Phase Shift** mode, her Phase Shift Radiance gain rate is increased by 50%.\nAdditionally, Spirit Steed's Stride will change such that it will consume all Phase Shift Radiance. This will **elevate** the DMG dealt by this instance of Spirit Steed's Stride and the Lunar-Crystallize Reaction DMG dealt by Zibai within the next 3s by 1.6% for every point consumed above 70. This effect cannot stack.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Mistsplitter Reforged",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Universal elemental damage boost and high CRIT DMG sub-stat."
+    },
+    {
+      "name": "Primordial Jade Cutter",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "+44.1% CRIT Rate and HP-to-ATK conversion."
+    },
+    {
+      "name": "Favonius Sword",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Top comfort pick for generating energy particles for smooth Burst uptime."
+    },
+    {
+      "name": "Sacrificial Sword",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "High chance to reset Elemental Skill cooldown."
+    },
+    {
+      "name": "Finale of the Deep",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "Fontaine craftable sword providing substantial ATK and Bond of Life damage bonuses."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Husk of Opulent Dreams",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "DEF%",
+        "Energy Recharge",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "DEF% / ATK%",
+        "goblet": "Geo DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Geo reaction damage and combat uptime."
+    },
+    {
+      "setName": "Scroll of the Hero of Cinder City",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "DEF%",
+        "Energy Recharge",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "DEF% / ATK%",
+        "goblet": "Geo DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Mono Geo Resonance",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000057",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000030",
+          "role": "Shielder"
+        },
+        {
+          "characterId": "10000055",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        }
+      ],
+      "rotation": "Zhongli Hold E -> Gorou E Q -> Bennett Q -> Geo DPS Burst Combo",
+      "expectedDamage": "~70-95k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit Rate, Crit DMG, DEF% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

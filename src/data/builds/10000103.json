@@ -1,0 +1,101 @@
+{
+  "characterId": "10000103",
+  "role": "Buffer",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Universal Geo buffer with continuous -36% elemental resistance shred and strong party healing.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Reduces Nightsoul consumption and increases interruption resistance.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "Grants monumental element-specific buffs to party members (+50% HP for Hydro, +40% ATK for Pyro, +50% CD for Cryo, +25 Energy for Electro).",
+      "priority": "bis"
+    },
+    {
+      "number": 6,
+      "summary": "Unlocks roller-skate on-field DPS mode with massive DEF-scaling damage.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "11515",
+      "name": "Peak Patrol Song",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature sword providing huge DEF and teamwide Elemental DMG bonus."
+    },
+    {
+      "weaponId": "11430",
+      "name": "Flute of Ezpitzal",
+      "tier": "F2P",
+      "rank": 2,
+      "reasoning": "Natlan craftable sword granting +69% DEF after using Elemental Skill."
+    },
+    {
+      "weaponId": "11401",
+      "name": "Favonius Sword",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Guarantees high team energy battery consistency."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Scroll of the Hero of Cinder City",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "DEF%",
+        "Energy Recharge (to 160%)",
+        "Crit Rate",
+        "Flat DEF"
+      ],
+      "mainStats": {
+        "sands": "DEF% / Energy Recharge",
+        "goblet": "DEF%",
+        "circlet": "Healing Bonus / DEF% / Crit Rate"
+      },
+      "reasoning": "Grants +40% Elemental DMG bonus to party on triggering Nightsoul reactions."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Universal Sovereign Shred",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000087",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000103",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        }
+      ],
+      "rotation": "Furina E Q -> Xilonen E Q -> Kazuha E Q -> Neuvillette E Q Charged Beam",
+      "expectedDamage": "~85-115k avg per rotation"
+    }
+  ],
+  "notes": "Requires at least 2 Pyro/Hydro/Cryo/Electro teammates to convert Samplers into resistance shred and active healing.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

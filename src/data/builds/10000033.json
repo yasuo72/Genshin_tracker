@@ -1,0 +1,144 @@
+{
+  "characterId": "10000033",
+  "role": "Main DPS / Sub DPS",
+  "tierRank": "S",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "No. 11 of The Harbingers, also known as \"Childe.\" His name is highly feared on the battlefield.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Decreases the CD of Foul Legacy: Raging Tide by 20%.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "When opponents affected by Riptide are defeated, Tartaglia regenerates 4 Elemental Energy.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Foul Legacy: Raging Tide by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "If Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, triggers Riptide Slash against opponents on the field affected by Riptide every 4s, otherwise, triggers Riptide Flash.\nRiptide Slashes and Riptide Flashes triggered by this Constellation effect are not subject to the time intervals that would typically apply to these two Riptide effects, nor do they have any effect on those time intervals.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of Havoc: Obliteration by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "When Havoc: Obliteration is cast in Melee Stance, the CD of Foul Legacy: Raging Tide is reset.\nThis effect will only take place once Tartaglia returns to his Ranged Stance.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Aqua Simulacra",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "+88.2% CRIT DMG, +16% HP, and unconditional +20% damage bonus."
+    },
+    {
+      "name": "Elegy for the End",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "High ER and teamwide EM and ATK buff upon triggering skills."
+    },
+    {
+      "name": "Favonius Warbow",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Premier energy generation weapon for consistent rotation uptime."
+    },
+    {
+      "name": "Sacrificial Bow",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "Resets skill cooldown for double energy particle generation."
+    },
+    {
+      "name": "Slingshot",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "Top 3★ budget CRIT Rate stat stick for on-field bow attackers."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Heart of Depth",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "HP%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "HP% / ATK%",
+        "goblet": "Hydro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Hydro reaction damage and combat uptime."
+    },
+    {
+      "setName": "Golden Troupe",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "HP%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "HP% / ATK%",
+        "goblet": "Hydro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Sovereign Hypercarry",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000087",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000030",
+          "role": "Shielder"
+        }
+      ],
+      "rotation": "Furina E Q -> Zhongli Hold E -> Kazuha E Q -> Main DPS Charged Attacks",
+      "expectedDamage": "~85-115k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit Rate, Crit DMG, HP% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

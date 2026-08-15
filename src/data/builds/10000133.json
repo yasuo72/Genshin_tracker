@@ -1,0 +1,144 @@
+{
+  "characterId": "10000133",
+  "role": "Main DPS / Sub DPS",
+  "tierRank": "S",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "The Seventh of the Fatui Harbingers, \"Marionette.\" Interprets all phenomena through the prism of mathematics, and is an elegant lady who is never absent from a tea party.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "When in **Decoding** mode, Fagio's **Decoding Power** increases at a 50% lower rate, and all party members deal 30% increased Stellar-Conduct DMG.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "Radiance: Stellar-Conduct: Increases CRIT DMG from Charged Attack condensed beams by 40%. Also, each time a beam is fired, CRIT DMG dealt by all condensed beams fired during this **Decoding** mode period will be further increased by 20%. Max 3 stacks.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of **Formule Phenomenale: Self-Evident Proposition** by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "When Sandrone deals Stellar-Conduct DMG to an opponent, she will also summon an extra Prismatic Resonance Cannon to fire off a coordinated attack which deals Cryo DMG at 125% of her ATK. This DMG is considered Stellar-Conduct DMG, and the effect can occur once every 4s.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of **Formule Phenomenale: Q.E.D.** by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "When Fagio fires a condensed beam for the third time while in **Decoding** mode, the beam becomes a more powerful Condensed Cluster Beam that fires continuously. This beam will deal up to 4 additional instances of AoE Cryo DMG at 100% of Sandrone's ATK on top of any subsequent original beam fired.\nRadiance: Stellar-Conduct: The Condensed Cluster Beam will instead deal 4 additional instances of AoE Cryo DMG at 80% of Sandrone's ATK. This DMG is considered Stellar-Conduct DMG.\nAdditionally, all Stellar-Conduct DMG dealt by Sandrone is **elevated** by 20%.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Beacon of the Reed Sea",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "+33.1% CRIT Rate and massive ATK bonuses upon using skill or taking damage."
+    },
+    {
+      "name": "Wolf's Gravestone",
+      "tier": "Standard Banner",
+      "rank": 2,
+      "reasoning": "Colossal ATK% stat stick with partywide ATK buff against low-health enemies."
+    },
+    {
+      "name": "Serpent Spine",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Battle Pass weapon providing up to +50% all DMG dealt at max stacks."
+    },
+    {
+      "name": "Earth Shaker",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "Natlan craftable claymore with Pyro reaction damage bonus."
+    },
+    {
+      "name": "Favonius Greatsword",
+      "tier": "Standard Banner",
+      "rank": 5,
+      "reasoning": "Generates clear energy particles for high Burst availability."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Blizzard Strayer",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Cryo DMG Bonus",
+        "circlet": "Crit DMG / Crit Rate"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Cryo reaction damage and combat uptime."
+    },
+    {
+      "setName": "Marechaussee Hunter",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Cryo DMG Bonus",
+        "circlet": "Crit DMG / Crit Rate"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Blizzard Freeze Core",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000002",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000093",
+          "role": "Healer"
+        }
+      ],
+      "rotation": "Furina E Q -> Kazuha E Q -> Xianyun E Q -> Cryo DPS Burst Combo",
+      "expectedDamage": "~75-105k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit DMG, Crit Rate, ATK% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

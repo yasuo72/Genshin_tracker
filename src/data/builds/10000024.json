@@ -1,0 +1,144 @@
+{
+  "characterId": "10000024",
+  "role": "Support / Sub DPS",
+  "tierRank": "A",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Captain of her crew, The Crux. She's quite an unbound and forthright woman.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "When Stormbreaker is used:\nCreates a shield that absorbs up to 16% of Beidou's Max HP for 15s.\nThis shield absorbs Electro DMG 250% more effectively.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "Stormbreaker's arc lightning can jump to 2 additional targets.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Tidecaller by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "Upon being attacked, Beidou's Normal Attacks gain an additional instance of 20% Electro DMG for 10s.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of Stormbreaker by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "During the duration of Stormbreaker, the Electro RES of surrounding opponents is decreased by 15%.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Beacon of the Reed Sea",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "+33.1% CRIT Rate and massive ATK bonuses upon using skill or taking damage."
+    },
+    {
+      "name": "Wolf's Gravestone",
+      "tier": "Standard Banner",
+      "rank": 2,
+      "reasoning": "Colossal ATK% stat stick with partywide ATK buff against low-health enemies."
+    },
+    {
+      "name": "Serpent Spine",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Battle Pass weapon providing up to +50% all DMG dealt at max stacks."
+    },
+    {
+      "name": "Earth Shaker",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "Natlan craftable claymore with Pyro reaction damage bonus."
+    },
+    {
+      "name": "Favonius Greatsword",
+      "tier": "Standard Banner",
+      "rank": 5,
+      "reasoning": "Generates clear energy particles for high Burst availability."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Thundering Fury",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Energy Recharge",
+        "goblet": "Electro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Electro reaction damage and combat uptime."
+    },
+    {
+      "setName": "Emblem of Severed Fate",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Energy Recharge",
+        "goblet": "Electro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Aggravate Quickswap",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000052",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000073",
+          "role": "Enabler"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000078",
+          "role": "Healer"
+        }
+      ],
+      "rotation": "Nahida E Q -> Baizhu E Q -> Kazuha E Q -> Electro DPS Burst Combo",
+      "expectedDamage": "~75-100k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit Rate, Crit DMG, ATK% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

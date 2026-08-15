@@ -1,0 +1,171 @@
+{
+  "characterId": "10000052",
+  "role": "Main DPS",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Universal Energy Battery and burst DPS empowering party bursts while unleashing Musou Shinsetsu slashes.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Gains Resolve stacks 80% faster from Electro bursts and 20% faster from other elemental bursts.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "Secret Art: Musou Shinsetsu and Musou Isshin attacks ignore 60% of opponents' DEF (+44% personal damage jump).",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases Elemental Burst level by 3.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "Grants +30% ATK to all party members for 10s after Burst state ends.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases Elemental Skill level by 3.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Attacks during Burst decrease all party members' Burst cooldowns by up to 5s.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "13509",
+      "name": "Engulfing Lightning",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature polearm. Converts ER over 100% into bonus ATK (up to +80%) and grants +30% ER after Burst."
+    },
+    {
+      "weaponId": "13415",
+      "name": "The Catch",
+      "tier": "F2P",
+      "rank": 2,
+      "reasoning": "Best F2P polearm obtained from Inazuma Fishing. Grants +32% Burst DMG and +12% Burst CRIT Rate."
+    },
+    {
+      "weaponId": "13501",
+      "name": "Staff of Homa",
+      "tier": "Premium (Limited)",
+      "rank": 3,
+      "reasoning": "Provides +66.2% CRIT DMG and bonus ATK based on Max HP."
+    },
+    {
+      "weaponId": "13401",
+      "name": "Dragon's Bane",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "Best in Slot for Hyperbloom trigger build with +221 Elemental Mastery."
+    },
+    {
+      "weaponId": "13407",
+      "name": "Favonius Lance",
+      "tier": "Standard Banner",
+      "rank": 5,
+      "reasoning": "Generates clear energy particles to battery the team."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Emblem of Severed Fate",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Energy Recharge (to 270%)",
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "Energy Recharge",
+        "goblet": "Electro DMG Bonus / ATK%",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "+20% Energy Recharge and converts up to 75% Energy Recharge into Elemental Burst DMG."
+    },
+    {
+      "setName": "Flower of Paradise Lost / Gilded Dreams",
+      "pieceCount": "4pc",
+      "role": "alternative",
+      "substats": [
+        "Elemental Mastery",
+        "Energy Recharge",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "Elemental Mastery",
+        "goblet": "Elemental Mastery",
+        "circlet": "Elemental Mastery"
+      },
+      "reasoning": "Pure EM build for continuous off-field Hyperbloom triggers."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Raiden Hypercarry Execution",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000052",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000056",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        }
+      ],
+      "rotation": "Raiden E -> Kazuha E Q -> Bennett Q E -> Sara E Q -> Raiden Q Musou Slash Combo",
+      "expectedDamage": "~70-95k avg per rotation"
+    },
+    {
+      "name": "Rational (Raiden National)",
+      "budget": "F2P",
+      "members": [
+        {
+          "characterId": "10000052",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000025",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000023",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        }
+      ],
+      "rotation": "Raiden E -> Xingqiu E Q -> Bennett Q E -> Xiangling Q E -> Raiden Q Musou Combo",
+      "expectedDamage": "~60-80k avg per rotation"
+    }
+  ],
+  "notes": "Aim for ~250-270% Energy Recharge with Emblem of Severed Fate for maximum burst damage and party energy return.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

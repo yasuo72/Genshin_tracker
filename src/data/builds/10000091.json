@@ -1,0 +1,133 @@
+{
+  "characterId": "10000091",
+  "role": "Main DPS",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Gunbrella Crystallize hypercarry firing lethal Rosula Shrapnel shotgun blasts.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Each Crystal Shrapnel consumed restores 3 Energy and reduces Burst CD.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "Each Crystal Shrapnel increases Gunbrella CRIT Rate by 12% (up to +36%) and calls down Cannon fire.",
+      "priority": "bis"
+    },
+    {
+      "number": 6,
+      "summary": "Consuming more than 3 Shrapnel increases Gunbrella CRIT DMG by up to +135% and refunds Shrapnel.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "12510",
+      "name": "Verdict",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature axe giving +22.1% CRIT Rate, +20% ATK, and +36% Elemental Skill DMG upon obtaining Crystallize shards."
+    },
+    {
+      "weaponId": "12511",
+      "name": "Beacon of the Reed Sea",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "Provides +33.1% CRIT Rate and +40% ATK bonuses."
+    },
+    {
+      "weaponId": "12409",
+      "name": "Serpent Spine",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Battle Pass claymore with up to +50% all DMG dealt."
+    },
+    {
+      "weaponId": "12426",
+      "name": "Ultimate Overlord's Mega Magic Sword",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "Event claymore providing +48% ATK and +30.6% Energy Recharge."
+    },
+    {
+      "weaponId": "12427",
+      "name": "Earth Shaker",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "Craftable claymore option."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Nighttime Whispers in the Echoing Woods",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Energy Recharge",
+        "Flat ATK"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Geo DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "+18% ATK and up to +50% Geo DMG bonus for 10s after using Elemental Skill with Crystallize shield."
+    },
+    {
+      "setName": "Golden Troupe",
+      "pieceCount": "4pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Geo DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "+70% Elemental Skill Gunbrella damage."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Navia Crystallize Core",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000091",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000103",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        }
+      ],
+      "rotation": "Furina E Q -> Xilonen E Q -> Bennett Q E -> Navia Q Hold E Gunbrella Shrapnel",
+      "expectedDamage": "~85-115k avg per rotation"
+    }
+  ],
+  "notes": "Always collect 6 Crystal Shrapnel stacks before firing her Gunbrella to double the bullet count and deal 200% base damage!",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

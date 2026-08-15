@@ -1,0 +1,168 @@
+{
+  "characterId": "10000123",
+  "role": "Main DPS / Sub DPS",
+  "tierRank": "S",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "A dragon born from M's pen, who came to alight in the human world. His \"story\" continues to unfold.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "After casting his Elemental Burst, Durin's effects will vary depending on the form of his Elemental Burst:\n· Principle of Purity: As the Light Shifts: All other nearby party members gain 20 stacks of Cycle of Enlightenment lasting 20s. When nearby active characters deal Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, or Elemental Burst DMG, 1 stack of Cycle of Enlightenment will be consumed to increase the DMG dealt by 60% of Durin's ATK. Stack counts for characters in the party who have Cycle of Enlightenment are managed individually.\n· Principle of Darkness: As the Stars Smolder: Durin gains 20 stacks of Cycle of Enlightenment lasting 20s. When Durin deals Elemental Burst DMG, 2 stacks of Cycle of Enlightenment will be consumed to increase the DMG dealt by 150% of Durin's ATK.\n\nWhen an Elemental Burst is used, Cycle of Enlightenment stacks will be refreshed.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "For 20s after Durin uses an Elemental Burst, after nearby party members trigger Vaporize, Melt, Burning, Overloaded, Pyro Swirl, or Pyro Crystallize reactions, or deal Pyro DMG or Dendro DMG to an opponent affected by Burning, all nearby party members gain a 50% increase to their Pyro DMG and to the corresponding elemental DMG involved in the reaction for 6s.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of **Principle of Purity: As the Light Shifts** by 3.\nMaximum upgrade level is 15.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "Durin's Elemental Burst DMG is increased by 40%. Additionally, when effects that consume Cycle of Enlightenment stacks are triggered as part of the Constellation **Adamah's Redemption**, there is a 30% chance that no Cycle of Enlightenment stacks will be consumed.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of **Binary Form: Convergence and Division** by 3.\nMaximum upgrade level is 15.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Durin's Elemental Burst DMG ignores 30% of opponents' DEF.\nAdditionally, Durin's Elemental Bursts Principle of Purity: As the Light Shifts and Principle of Darkness: As the Stars Smolder are each enhanced:\n· After Principle of Purity: As the Light Shifts and Dragon of White Flame hit an opponent, that opponent's DEF is decreased by 30% for 6s.\n· DMG from Principle of Darkness: As the Stars Smolder and Dragon of Dark Decay will ignore an additional 40% of opponents' DEF.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Mistsplitter Reforged",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Universal elemental damage boost and high CRIT DMG sub-stat."
+    },
+    {
+      "name": "Primordial Jade Cutter",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "+44.1% CRIT Rate and HP-to-ATK conversion."
+    },
+    {
+      "name": "Favonius Sword",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Top comfort pick for generating energy particles for smooth Burst uptime."
+    },
+    {
+      "name": "Sacrificial Sword",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "High chance to reset Elemental Skill cooldown."
+    },
+    {
+      "name": "Finale of the Deep",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "Fontaine craftable sword providing substantial ATK and Bond of Life damage bonuses."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Crimson Witch of Flames",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Elemental Mastery",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Elemental Mastery",
+        "goblet": "Pyro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Optimal 4-piece set maximizing Pyro reaction damage and combat uptime."
+    },
+    {
+      "setName": "Obsidian Codex",
+      "pieceCount": "2pc + 2pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Elemental Mastery",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Elemental Mastery",
+        "goblet": "Pyro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Flexible 2pc combination while farming for a complete 4-piece set with ideal sub-stats."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Vaporize Hypercarry",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000046",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000060",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000030",
+          "role": "Shielder"
+        }
+      ],
+      "rotation": "Zhongli Hold E -> Kazuha E Q -> Yelan E Q -> Main DPS Skill Combo",
+      "expectedDamage": "~70-95k avg per rotation"
+    },
+    {
+      "name": "F2P National Core",
+      "budget": "F2P",
+      "members": [
+        {
+          "characterId": "10000023",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000025",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        },
+        {
+          "characterId": "10000043",
+          "role": "Buffer"
+        }
+      ],
+      "rotation": "Bennett Q E -> Sucrose E Q -> Xiangling Q E -> Xingqiu Q E",
+      "expectedDamage": "~50-70k avg per rotation"
+    }
+  ],
+  "notes": "Focus on balancing Crit Rate, Crit DMG, ATK% to achieve optimal damage output.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

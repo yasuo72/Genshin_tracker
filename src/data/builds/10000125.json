@@ -1,0 +1,147 @@
+{
+  "characterId": "10000125",
+  "role": "Main DPS",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Harbinger harnessing ethereal singing melodies for supreme continuous AoE damage and reaction triggers.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Increases song reverberation range and elemental damage amplification by 30%.",
+      "priority": "high"
+    },
+    {
+      "number": 2,
+      "summary": "Melodic resonance ignores 30% of enemy DEF and refunds Energy.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases Elemental Skill level by 3.",
+      "priority": "medium"
+    },
+    {
+      "number": 4,
+      "summary": "Party members trigger synchronized lunar strikes on skill hits.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases Elemental Burst level by 3.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Enables celestial choir mode granting partywide +50% CRIT DMG and periodic lunar strikes.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "14517",
+      "name": "Starcaller's Watch",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature catalyst providing massive CRIT and teamwide resonance buff."
+    },
+    {
+      "weaponId": "14509",
+      "name": "Kagura's Verity",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "+66.2% CRIT DMG and stacking Elemental Skill buffs."
+    },
+    {
+      "weaponId": "14511",
+      "name": "A Thousand Floating Dreams",
+      "tier": "Premium (Limited)",
+      "rank": 3,
+      "reasoning": "High EM and elemental damage buffs for reaction-focused setups."
+    },
+    {
+      "weaponId": "14402",
+      "name": "The Widsith",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "Colossal CRIT DMG with powerful musical theme song buffs upon taking field."
+    },
+    {
+      "weaponId": "14406",
+      "name": "Prototype Amber",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "HP% and team energy battery with healing on Burst."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Nighttime Whispers in the Echoing Woods",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Elemental Mastery",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Elemental Mastery",
+        "goblet": "Hydro DMG / Elemental DMG",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Maximizes sustained ethereal resonance damage."
+    },
+    {
+      "setName": "Golden Troupe",
+      "pieceCount": "4pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Hydro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "+70% off-field skill damage."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Celestial Choir Symphony",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000125",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000030",
+          "role": "Shielder"
+        }
+      ],
+      "rotation": "Furina E Q -> Zhongli Hold E -> Kazuha E Q -> Columbina E Q Symphony Combo",
+      "expectedDamage": "~95-130k avg per rotation"
+    }
+  ],
+  "notes": "Synergizes with high-synergy off-field applicators to trigger continuous musical resonance bursts.",
+  "sources": [
+    "Fatui Harbinger Lore & Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

@@ -1,0 +1,109 @@
+{
+  "characterId": "10000104",
+  "role": "Main DPS",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Soulsnatcher flying sniper firing rainbow elemental Shadowhunt Shells based on teammates' elements.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Shadowhunt Shell conversion rate increased and phantom shells deal +120% DMG.",
+      "priority": "bis"
+    },
+    {
+      "number": 2,
+      "summary": "Fires 2 additional elemental shells on full charge, massively amplifying rainbow reaction damage.",
+      "priority": "bis"
+    },
+    {
+      "number": 6,
+      "summary": "Shadowhunt Shells charge instantly in flight and ignore 30% enemy DEF.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "15513",
+      "name": "Astral Vulture's Crimson Plumage",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature bow giving +66.2% CRIT DMG, +24% ATK, and huge rainbow elemental reaction DMG."
+    },
+    {
+      "weaponId": "15509",
+      "name": "The First Great Magic",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "+66.2% CRIT DMG, +16% Charged Attack DMG, and team element ATK buffs."
+    },
+    {
+      "weaponId": "15428",
+      "name": "Chain Breaker",
+      "tier": "F2P",
+      "rank": 3,
+      "reasoning": "Natlan craftable bow giving ATK% and Elemental Mastery."
+    },
+    {
+      "weaponId": "15301",
+      "name": "Slingshot",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "Top 3★ CRIT Rate budget option."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Obsidian Codex",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate (to 50%)",
+        "ATK%",
+        "Elemental Mastery",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Anemo DMG / ATK%",
+        "circlet": "Crit DMG"
+      },
+      "reasoning": "+40% CRIT Rate when consuming Nightsoul points in airborne combat."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Rainbow Elemental Artillery",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000104",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000106",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000107",
+          "role": "Support"
+        }
+      ],
+      "rotation": "Furina E Q -> Citlali E Q -> Mavuika E Q -> Chasca E Aerial Charge Shots",
+      "expectedDamage": "~85-120k avg per rotation"
+    }
+  ],
+  "notes": "Build with 3 distinct Pyro/Hydro/Cryo/Electro teammates to convert all 6 Shadowhunt Shells into lethal elemental bullets!",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

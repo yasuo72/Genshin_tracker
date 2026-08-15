@@ -1,26 +1,134 @@
 @import "tailwindcss";
 
+/* ===== Genshin Stats — Design System ===== */
+
+/* Dark theme by default */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0b0d14;
+  --background-secondary: #111520;
+  --background-card: rgba(255, 255, 255, 0.04);
+  --background-glass: rgba(255, 255, 255, 0.06);
+  --foreground: #e8eaf0;
+  --foreground-muted: #8b8fa3;
+  --foreground-subtle: #5a5e72;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-hover: rgba(255, 255, 255, 0.15);
+
+  /* Element colors — Genshin Impact */
+  --pyro: #ef7a35;
+  --hydro: #4cc2f1;
+  --anemo: #74c2a8;
+  --electro: #b47fe1;
+  --dendro: #a5c83b;
+  --cryo: #9fd6e3;
+  --geo: #f5b731;
+
+  /* Accent */
+  --accent: #6366f1;
+  --accent-glow: rgba(99, 102, 241, 0.25);
+
+  /* Ranking tiers */
+  --rank-gold: #fbbf24;
+  --rank-purple: #a855f7;
+  --rank-blue: #3b82f6;
+
+  /* Surfaces */
+  --glass-blur: 16px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-background-secondary: var(--background-secondary);
+  --color-background-card: var(--background-card);
+  --color-background-glass: var(--background-glass);
   --color-foreground: var(--foreground);
+  --color-foreground-muted: var(--foreground-muted);
+  --color-foreground-subtle: var(--foreground-subtle);
+  --color-border: var(--border);
+  --color-border-hover: var(--border-hover);
+
+  --color-pyro: var(--pyro);
+  --color-hydro: var(--hydro);
+  --color-anemo: var(--anemo);
+  --color-electro: var(--electro);
+  --color-dendro: var(--dendro);
+  --color-cryo: var(--cryo);
+  --color-geo: var(--geo);
+
+  --color-accent: var(--accent);
+  --color-accent-glow: var(--accent-glow);
+  --color-rank-gold: var(--rank-gold);
+  --color-rank-purple: var(--rank-purple);
+  --color-rank-blue: var(--rank-blue);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* ===== Base styles ===== */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== Glass card utility ===== */
+.glass-card {
+  background: var(--background-glass);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+
+/* ===== Skeleton shimmer animation ===== */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--background-card) 25%,
+    rgba(255, 255, 255, 0.08) 50%,
+    var(--background-card) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+  border-radius: var(--radius-md);
+}
+
+/* ===== Element glow utility ===== */
+.glow-pyro { box-shadow: 0 0 20px rgba(239, 122, 53, 0.3); }
+.glow-hydro { box-shadow: 0 0 20px rgba(76, 194, 241, 0.3); }
+.glow-anemo { box-shadow: 0 0 20px rgba(116, 194, 168, 0.3); }
+.glow-electro { box-shadow: 0 0 20px rgba(180, 127, 225, 0.3); }
+.glow-dendro { box-shadow: 0 0 20px rgba(165, 200, 59, 0.3); }
+.glow-cryo { box-shadow: 0 0 20px rgba(159, 214, 227, 0.3); }
+.glow-geo { box-shadow: 0 0 20px rgba(245, 183, 49, 0.3); }
+
+/* ===== Scrollbar styling ===== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--foreground-subtle);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--foreground-muted);
 }

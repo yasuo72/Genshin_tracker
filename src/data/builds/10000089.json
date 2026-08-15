@@ -1,0 +1,227 @@
+{
+  "characterId": "10000089",
+  "role": "Sub DPS",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Complete off-field Hydro damage and partywide Fanfare damage buffs on HP changes.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Grants 150 Fanfare points immediately upon Burst cast, raising the maximum cap to 400 points (+100% team DMG buff).",
+      "priority": "high"
+    },
+    {
+      "number": 2,
+      "summary": "Supercharges Fanfare point gain by 250%. Excess Fanfare increases Furina's Max HP by up to 140%, multiplying her personal damage.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases Elemental Burst level by 3.",
+      "priority": "medium"
+    },
+    {
+      "number": 4,
+      "summary": "Restores 4 Energy whenever Salon Members attack opponents, lowering her Energy Recharge requirement to ~120-130%.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases Elemental Skill level by 3.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Converts her Normal Attacks into Hydro damage for 10s upon Skill cast, enabling full-team burst healing or massive on-field nuking.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "11513",
+      "name": "Splendor of Tranquil Waters",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature weapon. Boosts Skill DMG by up to 24% and Max HP by up to 28% when party member HP fluctuates."
+    },
+    {
+      "weaponId": "11511",
+      "name": "Key of Khaj-Nisut",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "Provides monumental +86% total HP and converts HP into teamwide Elemental Mastery buffs for reaction teams."
+    },
+    {
+      "weaponId": "11505",
+      "name": "Primordial Jade Cutter",
+      "tier": "Premium (Limited)",
+      "rank": 3,
+      "reasoning": "High CRIT Rate stat stick with unconditional +20% Max HP bonus."
+    },
+    {
+      "weaponId": "11427",
+      "name": "Fleuve Cendre Ferryman",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "Best F2P sword obtained via Fontaine fishing. Grants +16% Skill CRIT Rate and +32% Energy Recharge after skill cast."
+    },
+    {
+      "weaponId": "11413",
+      "name": "Festering Desire",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "Event weapon with +32% Elemental Skill DMG and +12% Skill CRIT Rate."
+    },
+    {
+      "weaponId": "11401",
+      "name": "Favonius Sword",
+      "tier": "Standard Banner",
+      "rank": 6,
+      "reasoning": "Comfort weapon generating teamwide clear energy particles on CRIT hits, lowering party ER needs."
+    },
+    {
+      "weaponId": "11426",
+      "name": "The Dockhand's Assistant",
+      "tier": "Standard Banner",
+      "rank": 7,
+      "reasoning": "Gacha 4-star weapon providing high HP% and energy restoration upon healing."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Golden Troupe",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Energy Recharge (to 160%)",
+        "Crit Rate",
+        "Crit DMG",
+        "HP%",
+        "Flat HP"
+      ],
+      "mainStats": {
+        "sands": "HP% / Energy Recharge",
+        "goblet": "HP% / Hydro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Grants +70% total Elemental Skill DMG when Furina is off-field, unmatched by any other set."
+    },
+    {
+      "setName": "Golden Troupe + Tenacity of the Millelith",
+      "pieceCount": "2pc+2pc",
+      "role": "alternative",
+      "substats": [
+        "Energy Recharge",
+        "Crit Rate",
+        "Crit DMG",
+        "HP%"
+      ],
+      "mainStats": {
+        "sands": "HP% / Energy Recharge",
+        "goblet": "HP%",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "+20% Skill DMG and +20% HP for easy balanced substats while farming."
+    },
+    {
+      "setName": "Tenacity of the Millelith",
+      "pieceCount": "4pc",
+      "role": "budget",
+      "substats": [
+        "Energy Recharge",
+        "HP%",
+        "Crit Rate",
+        "Crit DMG"
+      ],
+      "mainStats": {
+        "sands": "HP%",
+        "goblet": "HP%",
+        "circlet": "Crit Rate"
+      },
+      "reasoning": "Continuous +20% ATK party buff on skill hits when supporting ATK-scaling carries."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Fontaine Sovereign Hypercarry",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000087",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000078",
+          "role": "Healer"
+        }
+      ],
+      "rotation": "Furina E Q -> Kazuha E Q -> Baizhu E Q -> Neuvillette E Q 3x Charged Attack",
+      "expectedDamage": "~70-100k avg per rotation at C0R1"
+    },
+    {
+      "name": "Hu Tao Plunge Vaporize",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000046",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000060",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000093",
+          "role": "Healer"
+        }
+      ],
+      "rotation": "Furina E Q -> Yelan E Q -> Xianyun E Q -> Hu Tao E Plunge Attacks",
+      "expectedDamage": "~65-90k avg per rotation"
+    },
+    {
+      "name": "Hyperbloom F2P Accessible",
+      "budget": "F2P",
+      "members": [
+        {
+          "characterId": "10000073",
+          "role": "Support"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000025",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000065",
+          "role": "Healer"
+        }
+      ],
+      "rotation": "Nahida E Q -> Furina E Q -> Xingqiu E Q -> Kuki Shinobu E -> Nahida Normal Attacks",
+      "expectedDamage": "~45-60k avg per rotation"
+    }
+  ],
+  "notes": "Requires a teamwide healer (like Baizhu, Xianyun, Jean, or Charlotte) to quickly stack maximum Fanfare buffs.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

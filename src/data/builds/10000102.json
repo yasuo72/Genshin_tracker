@@ -1,0 +1,148 @@
+{
+  "characterId": "10000102",
+  "role": "Main DPS",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Sharky Surfer dealing colossal single-instance forward Vaporize bite DMG scaling off Max HP.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Sharky's Bite DMG increases by 66% of Mualani's Max HP for the first hit in combat.",
+      "priority": "bis"
+    },
+    {
+      "number": 2,
+      "summary": "Entering Nightsoul's Blessing immediately grants 2 Wavechaser stacks and restores Phlogiston.",
+      "priority": "high"
+    },
+    {
+      "number": 3,
+      "summary": "Increases Elemental Skill level by 3.",
+      "priority": "medium"
+    },
+    {
+      "number": 4,
+      "summary": "Sharky Missiles deal 75% more DMG and refund 8 Energy.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases Elemental Burst level by 3.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Removes the cooldown and restriction of C1, allowing every single Sharky Bite to deal massive enhanced DMG.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "14514",
+      "name": "Surf's Up",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature catalyst providing +88.2% CRIT DMG, +20% HP, and up to +48% Normal Attack DMG."
+    },
+    {
+      "weaponId": "14427",
+      "name": "Sacrificial Jade",
+      "tier": "Standard Banner",
+      "rank": 2,
+      "reasoning": "Battle Pass catalyst giving +36.8% CRIT Rate, +64% Max HP, and +80 EM."
+    },
+    {
+      "weaponId": "14430",
+      "name": "Ring of Yaxche",
+      "tier": "F2P",
+      "rank": 3,
+      "reasoning": "Natlan craftable catalyst providing +41.3% HP and up to +32% Normal Attack DMG scaling with HP."
+    },
+    {
+      "weaponId": "14402",
+      "name": "The Widsith",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "Massive CRIT DMG stat stick."
+    },
+    {
+      "weaponId": "14406",
+      "name": "Prototype Amber",
+      "tier": "F2P",
+      "rank": 5,
+      "reasoning": "Comfort HP% stat stick."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Obsidian Codex",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate (to 50%)",
+        "HP%",
+        "Elemental Mastery",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "HP%",
+        "goblet": "Hydro DMG Bonus",
+        "circlet": "Crit DMG"
+      },
+      "reasoning": "+40% CRIT Rate when consuming Nightsoul points on field."
+    },
+    {
+      "setName": "Heart of Depth",
+      "pieceCount": "4pc",
+      "role": "alternative",
+      "substats": [
+        "Crit DMG",
+        "Crit Rate",
+        "HP%",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "HP%",
+        "goblet": "Hydro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "+15% Hydro DMG and +30% Normal/Charged Attack DMG."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Forward Vaporize Surge",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000102",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000106",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000103",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000030",
+          "role": "Shielder"
+        }
+      ],
+      "rotation": "Zhongli Hold E -> Xilonen E Q -> Mavuika E Q -> Mualani E Sharky Surfing 3-Stack Bite",
+      "expectedDamage": "~90-130k avg per rotation"
+    }
+  ],
+  "notes": "Always stack 3 Wavechaser marks before biting to trigger monumental Forward Vaporize multipliers!",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

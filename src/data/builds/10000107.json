@@ -1,0 +1,108 @@
+{
+  "characterId": "10000107",
+  "role": "Support",
+  "tierRank": "S",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Cryo shielder and off-field applicator from Natlan enabling forward Melt and Freeze.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Increases shield absorption and grants party bonus Cryo DMG.",
+      "priority": "high"
+    },
+    {
+      "number": 2,
+      "summary": "Grants massive Elemental Mastery bonus to active characters shielded by her Nightsoul.",
+      "priority": "bis"
+    },
+    {
+      "number": 6,
+      "summary": "Greatly expands Cryo shred and allows on-field DPS conversion.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "14515",
+      "name": "Starcaller's Watch",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature catalyst granting high Elemental Mastery and party buffs."
+    },
+    {
+      "weaponId": "14403",
+      "name": "Sacrificial Fragments",
+      "tier": "Standard Banner",
+      "rank": 2,
+      "reasoning": "Provides +221 EM and resets skill cooldown."
+    },
+    {
+      "weaponId": "14406",
+      "name": "Favonius Codex",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "Generates clear energy particles for the party."
+    },
+    {
+      "weaponId": "14302",
+      "name": "Thrilling Tales of Dragon Slayers",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "+48% ATK buff to next character taking field."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Scroll of the Hero of Cinder City",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Elemental Mastery",
+        "Energy Recharge",
+        "Crit Rate",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "Elemental Mastery / Energy Recharge",
+        "goblet": "Elemental Mastery / Cryo DMG",
+        "circlet": "Elemental Mastery / Crit Rate"
+      },
+      "reasoning": "+40% Team elemental damage bonus on reaction trigger."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Mavuika Forward Melt Core",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000106",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000107",
+          "role": "Support"
+        },
+        {
+          "characterId": "10000103",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        }
+      ],
+      "rotation": "Xilonen E Q -> Citlali E Q -> Bennett E Q -> Mavuika E Q Overdrive",
+      "expectedDamage": "~80-110k avg per rotation"
+    }
+  ],
+  "notes": "Crucial enabler for Natlan Pyro carries.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

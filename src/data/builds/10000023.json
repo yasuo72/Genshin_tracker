@@ -1,0 +1,97 @@
+{
+  "characterId": "10000023",
+  "role": "Sub DPS",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Uncontested off-field Pyro DPS with Pyronado snapshotting buffs and having no ICD on Vaporize/Melt.",
+      "priority": "low"
+    },
+    {
+      "number": 3,
+      "summary": "Increases Elemental Burst level by 3.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "Pyronado's duration is increased by 40% (4 extra seconds of massive damage).",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "13501",
+      "name": "Staff of the Scarlet Sands",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature weapon for reaction DPS converting EM into huge ATK."
+    },
+    {
+      "weaponId": "13415",
+      "name": "The Catch",
+      "tier": "F2P",
+      "rank": 2,
+      "reasoning": "Top F2P weapon giving +45.9% ER, +32% Burst DMG, and +12% Burst CRIT Rate."
+    },
+    {
+      "weaponId": "13401",
+      "name": "Dragon's Bane",
+      "tier": "Standard Banner",
+      "rank": 3,
+      "reasoning": "High EM polearm with +36% DMG against Hydro/Pyro affected enemies."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Emblem of Severed Fate",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Energy Recharge (to 200%)",
+        "Crit Rate",
+        "Crit DMG",
+        "Elemental Mastery",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "Energy Recharge / Elemental Mastery",
+        "goblet": "Pyro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "+20% ER and converts up to 75% ER into Pyronado Burst DMG."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "National Team",
+      "budget": "F2P",
+      "members": [
+        {
+          "characterId": "10000023",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000025",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        }
+      ],
+      "rotation": "Bennett Q E -> Kazuha E Q -> Xiangling Q E -> Xingqiu Q E",
+      "expectedDamage": "~55-75k avg per rotation"
+    }
+  ],
+  "notes": "Always cast Bennett Burst before Xiangling Burst so Pyronado snapshots Bennett's massive flat ATK buff for its entire duration!",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

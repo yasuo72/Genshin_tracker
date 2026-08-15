@@ -1,0 +1,172 @@
+{
+  "characterId": "10000096",
+  "role": "Main DPS",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "High-octane Pyro normal attacker converting Bond of Life into massive single-target and AoE scythe slashes.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Masque of the Red Death damage increased by 100% and grants interruption immunity during normal attacks.",
+      "priority": "bis"
+    },
+    {
+      "number": 2,
+      "summary": "Blood-Debt Directives immediately become Due, dealing 900% AoE Pyro DMG upon retrieval and increasing All RES by 20%.",
+      "priority": "high"
+    },
+    {
+      "number": 3,
+      "summary": "Increases Normal Attack talent level by 3 (primary damage multiplier).",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "Absorbing Blood-Debt decreases Burst cooldown by 2s and refunds 15 Energy.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases Elemental Burst level by 3.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Burst damage gains scaling equal to +700% ATK multiplied by current Bond of Life, plus +10% CRIT Rate and +70% CRIT DMG for 20s.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "13512",
+      "name": "Crimson Moon's Semblance",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature polearm. Transforms into a crimson scythe, grants +25% Bond of Life on Charged Attack, and provides up to +36% all DMG."
+    },
+    {
+      "weaponId": "13501",
+      "name": "Primordial Jade Winged-Spear",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "High base ATK weapon granting +22.1% CRIT Rate, +22.4% ATK, and +12% all DMG bonus on consecutive hits."
+    },
+    {
+      "weaponId": "13509",
+      "name": "Staff of Homa",
+      "tier": "Premium (Limited)",
+      "rank": 3,
+      "reasoning": "Provides +66.2% CRIT DMG and bonus ATK scaling from Max HP."
+    },
+    {
+      "weaponId": "13301",
+      "name": "White Tassel",
+      "tier": "F2P",
+      "rank": 4,
+      "reasoning": "Top 3★ F2P weapon found in Liyue/Chenyu Vale chests. Gives +23.4% CRIT Rate and colossal +48% Normal Attack DMG bonus."
+    },
+    {
+      "weaponId": "13405",
+      "name": "Deathmatch",
+      "tier": "Standard Banner",
+      "rank": 5,
+      "reasoning": "Battle Pass polearm giving +36.8% CRIT Rate and up to +32% ATK."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Fragment of Harmonic Whimsy",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Elemental Mastery",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "ATK% / Elemental Mastery",
+        "goblet": "Pyro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "+18% ATK and +54% all DMG bonus when Bond of Life increases or decreases."
+    },
+    {
+      "setName": "Gladiator's Finale",
+      "pieceCount": "4pc",
+      "role": "alternative",
+      "substats": [
+        "Crit Rate",
+        "Crit DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ],
+      "mainStats": {
+        "sands": "ATK%",
+        "goblet": "Pyro DMG Bonus",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "+18% ATK and unconditional +35% Normal Attack DMG bonus."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Chevreuse Overload Assassination",
+      "budget": "Mixed",
+      "members": [
+        {
+          "characterId": "10000096",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000031",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000090",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        }
+      ],
+      "rotation": "Arlecchino E -> Fischl E -> Chevreuse Hold E Q -> Bennett Q E -> Arlecchino Charged Attack + Normal Attacks",
+      "expectedDamage": "~75-95k avg per rotation"
+    },
+    {
+      "name": "Yelan Forward Vaporize",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000096",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000060",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000030",
+          "role": "Shielder"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        }
+      ],
+      "rotation": "Arlecchino E -> Zhongli Hold E -> Yelan E Q -> Bennett Q E -> Arlecchino Charged Attack + Normal Attacks",
+      "expectedDamage": "~70-90k avg per rotation"
+    }
+  ],
+  "notes": "Arlecchino cannot be healed by teammates during combat due to her passive — only her own Burst can heal her.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

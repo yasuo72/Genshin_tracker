@@ -1,0 +1,108 @@
+{
+  "characterId": "10000032",
+  "role": "Buffer",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "Premier ATK buffer and rapid healer in Genshin Impact.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Grand Expectation's ATK increase no longer has an HP restriction and gains an additional 20% of Bennett's Base ATK.",
+      "priority": "bis"
+    },
+    {
+      "number": 5,
+      "summary": "Increases Elemental Burst level by 3 (directly raises ATK buff ratio).",
+      "priority": "high"
+    },
+    {
+      "number": 6,
+      "summary": "Grants +15% Pyro DMG and Pyro infusion to sword/claymore/polearm characters inside his Inspiration Field.",
+      "priority": "medium"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "11501",
+      "name": "Aquila Favonia",
+      "tier": "Standard Banner",
+      "rank": 1,
+      "reasoning": "Highest Base ATK sword (674) to maximize Bennett's flat ATK buff."
+    },
+    {
+      "weaponId": "11502",
+      "name": "Skyward Blade",
+      "tier": "Standard Banner",
+      "rank": 2,
+      "reasoning": "608 Base ATK with +55.1% Energy Recharge for seamless Burst on cooldown."
+    },
+    {
+      "weaponId": "11414",
+      "name": "Sapwood Blade",
+      "tier": "F2P",
+      "rank": 3,
+      "reasoning": "Sumeru craftable sword with 565 Base ATK and +30.6% ER."
+    },
+    {
+      "weaponId": "11401",
+      "name": "Favonius Sword",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "Top energy battery."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Noblesse Oblige",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Energy Recharge (to 200%+)",
+        "HP%",
+        "Healing Bonus",
+        "Flat HP"
+      ],
+      "mainStats": {
+        "sands": "Energy Recharge",
+        "goblet": "HP%",
+        "circlet": "Healing Bonus / HP%"
+      },
+      "reasoning": "+20% Burst DMG and casting Burst increases all party members' ATK by 20% for 12s."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "National Team Core",
+      "budget": "F2P",
+      "members": [
+        {
+          "characterId": "10000023",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000025",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000032",
+          "role": "Support"
+        },
+        {
+          "characterId": "10000047",
+          "role": "Buffer"
+        }
+      ],
+      "rotation": "Bennett Q E -> Kazuha E Q -> Xiangling Q E -> Xingqiu Q E",
+      "expectedDamage": "~55-75k avg per rotation"
+    }
+  ],
+  "notes": "His ATK buff scales ONLY off his BASE Attack (character level + weapon base ATK). Artifact ATK% does not increase the buff!",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

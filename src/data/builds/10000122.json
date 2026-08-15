@@ -1,0 +1,178 @@
+{
+  "characterId": "10000122",
+  "role": "Main DPS",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "The remarkably resourceful owner of the Curatorium of Secrets dealing high EM-scaling Lunar-Bloom damage.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "The Base DMG for Lunar-Bloom reactions caused by Nefer's Phantasm Performance is increased by 60% of her Elemental Mastery.",
+      "priority": "medium"
+    },
+    {
+      "number": 2,
+      "summary": "Extends Veil of Falsehood duration by 5s, increases stack limit to 5, and causes Phantasm Performance to deal up to 140% DMG with +200 EM.",
+      "priority": "bis"
+    },
+    {
+      "number": 3,
+      "summary": "Increases the Level of Senet Strategy: Dance of a Thousand Nights by 3.",
+      "priority": "high"
+    },
+    {
+      "number": 4,
+      "summary": "Gains Verdant Dew 25% faster in Shadow Dance state and decreases nearby opponents' Dendro RES by 20%.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases the Level of Sacred Vow: True Eye's Phantasm by 3.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Phantasm Performance converts second stage into 85% EM AoE Dendro DMG and 120% EM extra instance with +15% Lunar-Bloom DMG.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "14521",
+      "name": "Reliquary of Truth",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature catalyst providing massive Elemental Mastery and scaling Lunar-Bloom reaction multipliers."
+    },
+    {
+      "weaponId": "14511",
+      "name": "A Thousand Floating Dreams",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "Grants +265 EM and partywide Elemental DMG bonus on reaction triggers."
+    },
+    {
+      "weaponId": "14509",
+      "name": "Kagura's Verity",
+      "tier": "Premium (Limited)",
+      "rank": 3,
+      "reasoning": "High CRIT DMG with stacking Elemental Skill damage buffs."
+    },
+    {
+      "weaponId": "14416",
+      "name": "Wandering Evenstar",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "Converts high EM into partywide ATK and reaction buffs."
+    },
+    {
+      "weaponId": "14403",
+      "name": "Sacrificial Fragments",
+      "tier": "Standard Banner",
+      "rank": 5,
+      "reasoning": "Provides +221 EM and resets cooldown for double Phantasm Performance uptime."
+    },
+    {
+      "weaponId": "14301",
+      "name": "Magic Guide",
+      "tier": "F2P",
+      "rank": 6,
+      "reasoning": "Top 3★ F2P weapon with +187 EM and +24% DMG against Hydro/Electro affected enemies."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Nightsky Unveiling",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "Elemental Mastery",
+        "Crit Rate",
+        "Crit DMG",
+        "Energy Recharge",
+        "ATK%"
+      ],
+      "mainStats": {
+        "sands": "Elemental Mastery",
+        "goblet": "Dendro DMG / Elemental Mastery",
+        "circlet": "Crit Rate / Elemental Mastery"
+      },
+      "reasoning": "BiS signature artifact set specifically tailored for Lunar-Bloom and Phantasm Performance damage."
+    },
+    {
+      "setName": "Gilded Dreams",
+      "pieceCount": "4pc",
+      "role": "alternative",
+      "substats": [
+        "Elemental Mastery",
+        "Crit Rate",
+        "Crit DMG",
+        "Energy Recharge"
+      ],
+      "mainStats": {
+        "sands": "Elemental Mastery",
+        "goblet": "Dendro DMG / Elemental Mastery",
+        "circlet": "Crit Rate / Crit DMG"
+      },
+      "reasoning": "Grants up to +230 EM in rainbow reaction parties."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Lunar-Bloom Supercharged",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000122",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000089",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000073",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000065",
+          "role": "Trigger"
+        }
+      ],
+      "rotation": "Nahida E Q -> Furina E Q -> Kuki E -> Nefer E Shadow Dance Phantasm Performance",
+      "expectedDamage": "~95-130k avg per rotation"
+    },
+    {
+      "name": "F2P Lunar Bloom Core",
+      "budget": "F2P",
+      "members": [
+        {
+          "characterId": "10000122",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000025",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000067",
+          "role": "Buffer"
+        },
+        {
+          "characterId": "10000014",
+          "role": "Healer"
+        }
+      ],
+      "rotation": "Xingqiu Q E -> Collei E Q -> Barbara E -> Nefer E Phantasm Combo",
+      "expectedDamage": "~60-85k avg per rotation"
+    }
+  ],
+  "notes": "Maximize Elemental Mastery on Nefer (aim for 800+ EM) to trigger colossal Lunar-Bloom reaction scalings!",
+  "sources": [
+    "Curatorium of Secrets Theorycrafting Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}

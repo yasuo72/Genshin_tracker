@@ -1,0 +1,123 @@
+{
+  "characterId": "10000030",
+  "role": "Support",
+  "tierRank": "SS",
+  "constellations": [
+    {
+      "number": 0,
+      "summary": "The ultimate shield in Genshin Impact with 100% uptime and universal -20% all elemental and physical resistance shred.",
+      "priority": "low"
+    },
+    {
+      "number": 1,
+      "summary": "Can summon 2 Stone Steles simultaneously.",
+      "priority": "low"
+    },
+    {
+      "number": 2,
+      "summary": "Elemental Burst grants Jade Shields to all nearby party members (great for co-op).",
+      "priority": "medium"
+    },
+    {
+      "number": 3,
+      "summary": "Increases Elemental Skill level by 3.",
+      "priority": "medium"
+    },
+    {
+      "number": 4,
+      "summary": "Increases Planet Befall Burst AoE by 20% and petrification duration by 2s.",
+      "priority": "medium"
+    },
+    {
+      "number": 5,
+      "summary": "Increases Elemental Burst level by 3.",
+      "priority": "low"
+    },
+    {
+      "number": 6,
+      "summary": "Jade Shield converts 40% of incoming damage into HP healing for the active character.",
+      "priority": "bis"
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "13504",
+      "name": "Vortex Vanquisher",
+      "tier": "Premium (Limited)",
+      "rank": 1,
+      "reasoning": "Signature aesthetic spear increasing shield strength and ATK."
+    },
+    {
+      "weaponId": "13509",
+      "name": "Staff of Homa",
+      "tier": "Premium (Limited)",
+      "rank": 2,
+      "reasoning": "Best offensive polearm providing CRIT DMG and bonus ATK based on Max HP."
+    },
+    {
+      "weaponId": "13303",
+      "name": "Black Tassel",
+      "tier": "F2P",
+      "rank": 3,
+      "reasoning": "Top 3★ F2P pure shield weapon giving colossal +46.9% HP."
+    },
+    {
+      "weaponId": "13407",
+      "name": "Favonius Lance",
+      "tier": "Standard Banner",
+      "rank": 4,
+      "reasoning": "Comfort support weapon generating white energy particles on CRIT hits."
+    }
+  ],
+  "artifactSets": [
+    {
+      "setName": "Tenacity of the Millelith",
+      "pieceCount": "4pc",
+      "role": "main",
+      "substats": [
+        "HP%",
+        "Flat HP",
+        "Crit Rate",
+        "Crit DMG"
+      ],
+      "mainStats": {
+        "sands": "HP%",
+        "goblet": "HP%",
+        "circlet": "HP% / Crit Rate"
+      },
+      "reasoning": "+20% HP and stele resonance gives +20% ATK and +30% shield strength to all party members."
+    }
+  ],
+  "teamComps": [
+    {
+      "name": "Hu Tao Double Hydro Shield",
+      "budget": "Premium",
+      "members": [
+        {
+          "characterId": "10000046",
+          "role": "Main DPS"
+        },
+        {
+          "characterId": "10000060",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000025",
+          "role": "Sub DPS"
+        },
+        {
+          "characterId": "10000030",
+          "role": "Shielder"
+        }
+      ],
+      "rotation": "Zhongli Hold E -> Xingqiu E Q -> Yelan E Q -> Hu Tao E Charged Attacks",
+      "expectedDamage": "~70-90k avg per rotation"
+    }
+  ],
+  "notes": "For pure shield bot, build 50,000+ Max HP with 4pc Tenacity and Black Tassel.",
+  "sources": [
+    "Genshin Impact Fandom Wiki",
+    "Theorycraft Community Consensus"
+  ],
+  "lastUpdated": "2026-08-16"
+}
