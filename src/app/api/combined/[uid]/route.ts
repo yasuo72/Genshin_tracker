@@ -29,7 +29,7 @@ export async function GET(
     );
   }
 
-  const showcaseKey = `showcase:${uid}`;
+  const showcaseKey = `showcase_v2:${uid}`;
   const rankingKey = `akasha_v2:${uid}`;
 
   // Execute showcase fetch and ranking fetch in parallel (with ranking non-blocking timeout)

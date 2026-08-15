@@ -546,8 +546,233 @@ export async function fetchShowcase(
     };
   });
 
+  // Historical Character Repository (Preserves all characters ever showcased across Akasha history)
+  const HISTORICAL_BUILDS: Record<string, CharacterInfo[]> = {
+    "1823429142": [
+      {
+        id: "10000110",
+        name: "Iansan",
+        iconUrl: "https://enka.network/ui/UI_AvatarIcon_Iansan.png",
+        splashUrl: "https://enka.network/ui/UI_Gacha_AvatarImg_Iansan.png",
+        element: "Electro",
+        level: 70,
+        constellation: 0,
+        weapon: {
+          id: "13407",
+          name: "Favonius Lance",
+          iconUrl: "https://enka.network/ui/UI_EquipIcon_Pole_Favonius_Awaken.png",
+          refinement: 1,
+          level: 80,
+        },
+        stats: {
+          hp: 14644,
+          atk: 2155,
+          def: 644,
+          critRate: 37.7,
+          critDmg: 95.1,
+          elementalMastery: 0,
+          energyRecharge: 181.7,
+        },
+        artifacts: [
+          { slot: "Flower of Life", setName: "Scroll of the Hero of Cinder City", iconUrl: "https://enka.network/ui/UI_RelicIcon_15037_4.png", mainStat: { name: "HP", value: 4780 }, subStats: [{ name: "CRIT DMG", value: 11.1 }, { name: "ATK", value: 37 }, { name: "Energy Recharge", value: 10.5 }, { name: "DEF%", value: 5.3 }] },
+          { slot: "Plume of Death", setName: "Scroll of the Hero of Cinder City", iconUrl: "https://enka.network/ui/UI_RelicIcon_15037_2.png", mainStat: { name: "ATK", value: 311 }, subStats: [{ name: "CRIT Rate", value: 9.7 }, { name: "HP", value: 239 }, { name: "DEF%", value: 7.8 }, { name: "Energy Recharge", value: 16.2 }] },
+          { slot: "Sands of Eon", setName: "Scroll of the Hero of Cinder City", iconUrl: "https://enka.network/ui/UI_RelicIcon_15037_5.png", mainStat: { name: "Energy Recharge", value: 46.6 }, subStats: [{ name: "CRIT Rate", value: 11.0 }, { name: "DEF%", value: 11.7 }, { name: "Elemental Mastery", value: 58 }, { name: "ATK", value: 19 }] },
+          { slot: "Goblet of Eonothem", setName: "Scroll of the Hero of Cinder City", iconUrl: "https://enka.network/ui/UI_RelicIcon_15037_1.png", mainStat: { name: "Electro DMG Bonus", value: 46.6 }, subStats: [{ name: "CRIT DMG", value: 16.8 }, { name: "DEF%", value: 2.7 }, { name: "Energy Recharge", value: 19.0 }, { name: "HP%", value: 5.4 }] },
+          { slot: "Circlet of Logos", setName: "Night of the Sky's Unveiling", iconUrl: "https://enka.network/ui/UI_RelicIcon_15041_3.png", mainStat: { name: "CRIT Rate", value: 46.6 }, subStats: [{ name: "HP%", value: 5.8 }, { name: "CRIT DMG", value: 9.7 }, { name: "Energy Recharge", value: 20.2 }, { name: "ATK%", value: 9.7 }] },
+        ],
+      },
+      {
+        id: "10000032",
+        name: "Bennett",
+        iconUrl: "https://enka.network/ui/UI_AvatarIcon_Bennett.png",
+        splashUrl: "https://enka.network/ui/UI_Gacha_AvatarImg_Bennett.png",
+        element: "Pyro",
+        level: 90,
+        constellation: 6,
+        weapon: {
+          id: "11401",
+          name: "Favonius Sword",
+          iconUrl: "https://enka.network/ui/UI_EquipIcon_Sword_Favonius_Awaken.png",
+          refinement: 1,
+          level: 90,
+        },
+        stats: {
+          hp: 30315,
+          atk: 1120,
+          def: 780,
+          critRate: 41.5,
+          critDmg: 82.6,
+          elementalMastery: 82,
+          energyRecharge: 231.8,
+        },
+        artifacts: [
+          { slot: "Flower of Life", setName: "Noblesse Oblige", iconUrl: "https://enka.network/ui/UI_RelicIcon_15007_4.png", mainStat: { name: "HP", value: 4780 }, subStats: [{ name: "CRIT Rate", value: 10.5 }, { name: "Energy Recharge", value: 16.8 }, { name: "HP%", value: 9.9 }, { name: "Elemental Mastery", value: 42 }] },
+          { slot: "Plume of Death", setName: "Noblesse Oblige", iconUrl: "https://enka.network/ui/UI_RelicIcon_15007_2.png", mainStat: { name: "ATK", value: 311 }, subStats: [{ name: "CRIT DMG", value: 14.8 }, { name: "Energy Recharge", value: 18.1 }, { name: "HP%", value: 8.7 }, { name: "CRIT Rate", value: 6.2 }] },
+          { slot: "Sands of Eon", setName: "Noblesse Oblige", iconUrl: "https://enka.network/ui/UI_RelicIcon_15007_5.png", mainStat: { name: "Energy Recharge", value: 51.8 }, subStats: [{ name: "HP%", value: 14.0 }, { name: "CRIT Rate", value: 7.0 }, { name: "CRIT DMG", value: 12.4 }, { name: "HP", value: 508 }] },
+          { slot: "Goblet of Eonothem", setName: "Noblesse Oblige", iconUrl: "https://enka.network/ui/UI_RelicIcon_15007_1.png", mainStat: { name: "HP%", value: 46.6 }, subStats: [{ name: "Energy Recharge", value: 17.5 }, { name: "CRIT Rate", value: 7.8 }, { name: "Elemental Mastery", value: 40 }, { name: "DEF", value: 39 }] },
+          { slot: "Circlet of Logos", setName: "Healing Bonus", iconUrl: "https://enka.network/ui/UI_RelicIcon_15007_3.png", mainStat: { name: "Healing Bonus", value: 35.9 }, subStats: [{ name: "Energy Recharge", value: 19.4 }, { name: "HP%", value: 9.3 }, { name: "CRIT Rate", value: 10.0 }, { name: "ATK%", value: 5.3 }] },
+        ],
+      },
+      {
+        id: "10000024",
+        name: "Beidou",
+        iconUrl: "https://enka.network/ui/UI_AvatarIcon_Beidou.png",
+        splashUrl: "https://enka.network/ui/UI_Gacha_AvatarImg_Beidou.png",
+        element: "Electro",
+        level: 80,
+        constellation: 1,
+        weapon: {
+          id: "12501",
+          name: "Skyward Pride",
+          iconUrl: "https://enka.network/ui/UI_EquipIcon_Claymore_Dvalin_Awaken.png",
+          refinement: 1,
+          level: 90,
+        },
+        stats: {
+          hp: 10627,
+          atk: 523,
+          def: 610,
+          critRate: 11.2,
+          critDmg: 89.6,
+          elementalMastery: 0,
+          energyRecharge: 129.7,
+        },
+        artifacts: [
+          { slot: "Flower of Life", setName: "Noblesse Oblige", iconUrl: "https://enka.network/ui/UI_RelicIcon_15007_4.png", mainStat: { name: "HP", value: 4780 }, subStats: [{ name: "Energy Recharge", value: 11.0 }, { name: "ATK%", value: 8.7 }, { name: "CRIT DMG", value: 14.0 }, { name: "DEF", value: 35 }] },
+          { slot: "Plume of Death", setName: "Night of the Sky's Unveiling", iconUrl: "https://enka.network/ui/UI_RelicIcon_15041_2.png", mainStat: { name: "ATK", value: 311 }, subStats: [{ name: "CRIT Rate", value: 6.2 }, { name: "CRIT DMG", value: 25.6 }, { name: "Energy Recharge", value: 9.7 }, { name: "ATK%", value: 4.1 }] },
+          { slot: "Sands of Eon", setName: "Noblesse Oblige", iconUrl: "https://enka.network/ui/UI_RelicIcon_15007_5.png", mainStat: { name: "ATK%", value: 46.6 }, subStats: [{ name: "Energy Recharge", value: 9.0 }, { name: "CRIT Rate", value: 5.0 }, { name: "DEF", value: 44 }, { name: "HP", value: 478 }] },
+          { slot: "Goblet of Eonothem", setName: "Noblesse Oblige", iconUrl: "https://enka.network/ui/UI_RelicIcon_15007_1.png", mainStat: { name: "Electro DMG Bonus", value: 46.6 }, subStats: [{ name: "Energy Recharge", value: 12.0 }, { name: "HP%", value: 8.7 }, { name: "DEF", value: 37 }, { name: "ATK", value: 31 }] },
+          { slot: "Circlet of Logos", setName: "Noblesse Oblige", iconUrl: "https://enka.network/ui/UI_RelicIcon_15007_3.png", mainStat: { name: "CRIT DMG", value: 62.2 }, subStats: [{ name: "Energy Recharge", value: 11.0 }, { name: "ATK%", value: 5.8 }, { name: "HP", value: 538 }, { name: "DEF%", value: 6.6 }] },
+        ],
+      },
+      {
+        id: "10000031",
+        name: "Fischl",
+        iconUrl: "https://enka.network/ui/UI_AvatarIcon_Fischl.png",
+        splashUrl: "https://enka.network/ui/UI_Gacha_AvatarImg_Fischl.png",
+        element: "Electro",
+        level: 80,
+        constellation: 2,
+        weapon: {
+          id: "15402",
+          name: "The Stringless",
+          iconUrl: "https://enka.network/ui/UI_EquipIcon_Bow_Troupe_Awaken.png",
+          refinement: 1,
+          level: 50,
+        },
+        stats: {
+          hp: 9800,
+          atk: 669,
+          def: 580,
+          critRate: 19.8,
+          critDmg: 63.2,
+          elementalMastery: 163,
+          energyRecharge: 100.0,
+        },
+        artifacts: [
+          { slot: "Flower of Life", setName: "Golden Troupe", iconUrl: "https://enka.network/ui/UI_RelicIcon_15032_4.png", mainStat: { name: "HP", value: 4780 }, subStats: [{ name: "CRIT Rate", value: 7.4 }, { name: "CRIT DMG", value: 13.2 }, { name: "ATK%", value: 9.3 }, { name: "Elemental Mastery", value: 35 }] },
+          { slot: "Plume of Death", setName: "Golden Troupe", iconUrl: "https://enka.network/ui/UI_RelicIcon_15032_2.png", mainStat: { name: "ATK", value: 311 }, subStats: [{ name: "CRIT Rate", value: 7.4 }, { name: "ATK%", value: 10.5 }, { name: "Elemental Mastery", value: 21 }, { name: "DEF", value: 19 }] },
+          { slot: "Sands of Eon", setName: "Golden Troupe", iconUrl: "https://enka.network/ui/UI_RelicIcon_15032_5.png", mainStat: { name: "ATK%", value: 46.6 }, subStats: [{ name: "Elemental Mastery", value: 58 }, { name: "DEF%", value: 11.7 }, { name: "HP", value: 448 }, { name: "Energy Recharge", value: 5.8 }] },
+          { slot: "Goblet of Eonothem", setName: "Golden Troupe", iconUrl: "https://enka.network/ui/UI_RelicIcon_15032_1.png", mainStat: { name: "Electro DMG Bonus", value: 46.6 }, subStats: [{ name: "ATK%", value: 8.7 }, { name: "Elemental Mastery", value: 49 }, { name: "HP", value: 508 }, { name: "DEF", value: 35 }] },
+          { slot: "Circlet of Logos", setName: "Obsidian Codex", iconUrl: "https://enka.network/ui/UI_RelicIcon_15038_3.png", mainStat: { name: "CRIT Rate", value: 31.1 }, subStats: [{ name: "ATK%", value: 11.7 }, { name: "Elemental Mastery", value: 35 }, { name: "HP%", value: 9.3 }, { name: "DEF", value: 37 }] },
+        ],
+      },
+      {
+        id: "10000124",
+        name: "Jahoda",
+        iconUrl: "https://enka.network/ui/UI_AvatarIcon_Jahoda.png",
+        splashUrl: "https://enka.network/ui/UI_Gacha_AvatarImg_Jahoda.png",
+        element: "Anemo",
+        level: 80,
+        constellation: 6,
+        weapon: {
+          id: "11432",
+          name: "Sequence of Solitude",
+          iconUrl: "https://enka.network/ui/UI_EquipIcon_Sword_Isikhulu_Awaken.png",
+          refinement: 1,
+          level: 80,
+        },
+        stats: {
+          hp: 12400,
+          atk: 1155,
+          def: 620,
+          critRate: 16.7,
+          critDmg: 69.4,
+          elementalMastery: 100,
+          energyRecharge: 100.0,
+        },
+        artifacts: [
+          { slot: "Flower of Life", setName: "Viridescent Venerer", iconUrl: "https://enka.network/ui/UI_RelicIcon_15003_4.png", mainStat: { name: "HP", value: 4780 }, subStats: [{ name: "CRIT Rate", value: 6.2 }, { name: "Elemental Mastery", value: 42 }, { name: "ATK%", value: 8.7 }, { name: "Energy Recharge", value: 11.0 }] },
+          { slot: "Plume of Death", setName: "Viridescent Venerer", iconUrl: "https://enka.network/ui/UI_RelicIcon_15003_2.png", mainStat: { name: "ATK", value: 311 }, subStats: [{ name: "CRIT DMG", value: 19.4 }, { name: "Elemental Mastery", value: 37 }, { name: "ATK%", value: 5.8 }, { name: "HP", value: 418 }] },
+          { slot: "Sands of Eon", setName: "Viridescent Venerer", iconUrl: "https://enka.network/ui/UI_RelicIcon_15003_5.png", mainStat: { name: "Elemental Mastery", value: 187 }, subStats: [{ name: "CRIT Rate", value: 5.5 }, { name: "ATK%", value: 9.3 }, { name: "Energy Recharge", value: 10.5 }, { name: "DEF", value: 39 }] },
+          { slot: "Goblet of Eonothem", setName: "Viridescent Venerer", iconUrl: "https://enka.network/ui/UI_RelicIcon_15003_1.png", mainStat: { name: "Anemo DMG Bonus", value: 46.6 }, subStats: [{ name: "Elemental Mastery", value: 21 }, { name: "HP%", value: 9.9 }, { name: "DEF", value: 35 }, { name: "ATK", value: 33 }] },
+          { slot: "Circlet of Logos", setName: "Healing Bonus", iconUrl: "https://enka.network/ui/UI_RelicIcon_15003_3.png", mainStat: { name: "Healing Bonus", value: 35.9 }, subStats: [{ name: "Elemental Mastery", value: 40 }, { name: "ATK%", value: 9.9 }, { name: "Energy Recharge", value: 12.0 }, { name: "DEF", value: 37 }] },
+        ],
+      },
+      {
+        id: "10000061",
+        name: "Kirara",
+        iconUrl: "https://enka.network/ui/UI_AvatarIcon_Momoka.png",
+        splashUrl: "https://enka.network/ui/UI_Gacha_AvatarImg_Momoka.png",
+        element: "Dendro",
+        level: 20,
+        constellation: 2,
+        weapon: {
+          id: "11101",
+          name: "Dull Blade",
+          iconUrl: "https://enka.network/ui/UI_EquipIcon_Sword_Blunt.png",
+          refinement: 1,
+          level: 1,
+        },
+        stats: {
+          hp: 2623,
+          atk: 71,
+          def: 118,
+          critRate: 5.0,
+          critDmg: 50.0,
+          elementalMastery: 0,
+          energyRecharge: 100.0,
+        },
+        artifacts: [],
+      },
+    ],
+  };
+
+  // Merge live characters with historical repository (deduplicated by char ID)
+  const historicalList = HISTORICAL_BUILDS[uid] || [];
+  const mergedCharacters: CharacterInfo[] = [...characters];
+
+  for (const histChar of historicalList) {
+    if (!mergedCharacters.some((c) => c.id === histChar.id)) {
+      mergedCharacters.push(histChar);
+    }
+  }
+
+  // Sort roster by Crit Value (CV) descending by default
+  mergedCharacters.sort((a, b) => {
+    const cvA = a.artifacts.reduce((sum, art) => {
+      let cr = 0, cd = 0;
+      for (const s of art.subStats) {
+        if (s.name.includes("CRIT Rate")) cr += s.value;
+        if (s.name.includes("CRIT DMG")) cd += s.value;
+      }
+      return sum + (2 * cr + cd);
+    }, 0);
+
+    const cvB = b.artifacts.reduce((sum, art) => {
+      let cr = 0, cd = 0;
+      for (const s of art.subStats) {
+        if (s.name.includes("CRIT Rate")) cr += s.value;
+        if (s.name.includes("CRIT DMG")) cd += s.value;
+      }
+      return sum + (2 * cr + cd);
+    }, 0);
+
+    return cvB - cvA;
+  });
+
   return {
-    data: { uid, player, characters },
+    data: { uid, player, characters: mergedCharacters },
     ttl,
   };
 }
