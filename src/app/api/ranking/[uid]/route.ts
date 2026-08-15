@@ -15,7 +15,7 @@ export async function GET(
     return NextResponse.json({ ranking: null }, { status: 200 });
   }
 
-  const cacheKey = `akasha:${uid}`;
+  const cacheKey = `akasha_v2:${uid}`;
 
   // Check cache (20 min TTL)
   try {

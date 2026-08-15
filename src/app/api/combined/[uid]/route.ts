@@ -30,7 +30,7 @@ export async function GET(
   }
 
   const showcaseKey = `showcase:${uid}`;
-  const rankingKey = `akasha:${uid}`;
+  const rankingKey = `akasha_v2:${uid}`;
 
   // Execute showcase fetch and ranking fetch in parallel (with ranking non-blocking timeout)
   const [showcaseResult, rankingResult] = await Promise.allSettled([

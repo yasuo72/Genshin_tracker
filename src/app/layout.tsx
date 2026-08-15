@@ -13,10 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "GenshinStats — Live Character Showcase & Global Rankings",
+  title: "ASTRALIS — Genshin Impact Showcase & Build Theorycraft Engine",
   description:
-    "Look up any Genshin Impact player by UID. View character builds, artifact roll efficiency, combat stats, and global percentile rankings.",
-  keywords: ["Genshin Impact", "character showcase", "builds", "artifacts", "stats", "rankings", "leaderboards"],
+    "Next-generation Genshin Impact character showcase, weapon and artifact build guides, CV roll quality rankings, and global percentile leaderboards. Engineered by Yasuo (@yasuo72).",
+  keywords: ["Genshin Impact", "Astralis", "character showcase", "build guides", "theorycraft", "artifacts", "rankings", "leaderboards", "Yasuo72"],
+  authors: [{ name: "Yasuo (yasuo72)" }],
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

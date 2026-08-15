@@ -1,62 +1,39 @@
 /**
- * Akasha System API Client — Defensive Implementation
+ * Akasha System API Client — Real-Time Live Integration
  *
- * Akasha.cv does not have an official public API and endpoints may change.
- * This client runs with a strict 4000ms AbortController timeout, validates
- * with Zod, and NEVER throws unhandled errors.
+ * Connects directly to https://akasha.cv/api/getCalculationsForUser/${uid}
+ * and accurately parses real-time character rankings, leaderboard categories,
+ * and percentile standings.
  */
 
-import { z } from "zod";
 import { CharacterRanking } from "./types";
 
 const AKASHA_API_BASE = "https://akasha.cv/api";
 
-// Zod Schema for Akasha user calculation entry
-const AkashaUserCalcSchema = z.object({
-  id: z.number().optional(),
-  calculationId: z.number().optional(),
-  name: z.string().optional(),
-  characterId: z.union([z.string(), z.number()]).optional(),
-  weapon: z
-    .object({
-      name: z.string().optional(),
-    })
-    .optional(),
-  ranking: z.number().optional(),
-  outOf: z.number().optional(),
-  topPercent: z.number().optional(),
-  result: z.number().optional(),
-  variant: z.string().optional(),
-});
-
-const AkashaResponseSchema = z.array(AkashaUserCalcSchema);
-
 /**
- * Fetches ranking calculations for a UID from Akasha.cv.
- * Always fails gracefully and returns null on any error or timeout.
+ * Fetches real ranking calculations for a UID from Akasha.cv.
+ * Returns authentic calculated leaderboard entries or null if not yet calculated.
  */
 export async function fetchRankings(
   uid: string
 ): Promise<CharacterRanking[] | null> {
   const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), 4000);
+  const timeoutId = setTimeout(() => controller.abort(), 4500);
 
   try {
     const res = await fetch(`${AKASHA_API_BASE}/getCalculationsForUser/${uid}`, {
       headers: {
-        "User-Agent": "akasha-py/1.0 (GenshinStats)",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
         Accept: "application/json",
       },
       signal: controller.signal,
-      next: { revalidate: 1200 }, // 20 mins
+      next: { revalidate: 600 }, // 10 minutes cache
     });
 
     clearTimeout(timeoutId);
 
     if (!res.ok) {
-      console.warn(
-        `[akasha] HTTP error ${res.status} for UID ${uid}: ${res.statusText}`
-      );
+      console.warn(`[akasha] HTTP error ${res.status} for UID ${uid}: ${res.statusText}`);
       return null;
     }
 
@@ -67,30 +44,32 @@ export async function fetchRankings(
       return null;
     }
 
-    // Validate with Zod
-    const parseResult = AkashaResponseSchema.safeParse(data);
-    if (!parseResult.success) {
-      console.warn("[akasha] Zod schema validation failed:", parseResult.error);
-      return null;
-    }
-
     const validRankings: CharacterRanking[] = [];
 
-    for (const item of parseResult.data) {
-      const charName = item.name ?? "Unknown";
+    for (const item of data) {
       const charId = String(item.characterId ?? item.id ?? "");
-      const weaponName = item.weapon?.name ?? "Unknown Weapon";
-      const ranking = item.ranking ?? 1;
-      const outOf = item.outOf ?? 100;
-      const calcId = item.calculationId ?? item.id ?? 0;
+      const charName = item.name ?? "";
 
-      // Calculate topPercent if not provided directly
-      let topPercent = item.topPercent;
-      if (topPercent === undefined && outOf > 0) {
-        topPercent = parseFloat(((ranking / outOf) * 100).toFixed(1));
-      }
+      // Extract real calculation from fit, first item of list, or item itself
+      const calc =
+        item.calculations?.fit ||
+        (Array.isArray(item.calculations?.list) && item.calculations.list.length > 0
+          ? item.calculations.list[0]
+          : null) ||
+        (item.ranking && item.outOf ? item : null);
 
-      if (topPercent !== undefined) {
+      if (calc && typeof calc.ranking === "number" && typeof calc.outOf === "number" && calc.outOf > 0) {
+        const ranking = calc.ranking;
+        const outOf = calc.outOf;
+        const weaponName =
+          calc.weapon?.name ||
+          item.weapon?.name ||
+          (item.weapon?.flat?.icon ? item.weapon.flat.icon.replace("UI_EquipIcon_", "").replace(/_/g, " ") : "Weapon");
+        
+        const calcName = calc.name || calc.short || "Leaderboard Combo";
+        const calcId = Number(calc.calculationId ?? 0);
+        const topPercent = parseFloat(((ranking / outOf) * 100).toFixed(1));
+
         validRankings.push({
           characterName: charName,
           characterId: charId,
@@ -99,6 +78,7 @@ export async function fetchRankings(
           ranking,
           outOf,
           calculationId: calcId,
+          calculation: calcName,
         });
       }
     }
@@ -107,7 +87,7 @@ export async function fetchRankings(
   } catch (error) {
     clearTimeout(timeoutId);
     if (error instanceof Error && error.name === "AbortError") {
-      console.warn(`[akasha] Request timed out (>4000ms) for UID ${uid}`);
+      console.warn(`[akasha] Request timed out (>4500ms) for UID ${uid}`);
     } else {
       console.warn("[akasha] Error fetching rankings (safe fallback):", error);
     }

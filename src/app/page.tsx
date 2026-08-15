@@ -69,22 +69,25 @@ export default function LandingPage() {
 
         <div className="relative z-10 mx-auto flex max-w-3xl flex-col items-center text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 rounded-full border border-indigo-500/30 bg-indigo-500/10 px-4 py-1.5 text-xs font-semibold text-indigo-300 backdrop-blur-md shadow-sm mb-6">
-            <span className="flex h-2 w-2 rounded-full bg-cyan-400 animate-pulse" />
-            <span>Real-Time Showcase & Global Stats</span>
+          <div className="inline-flex items-center gap-2.5 rounded-full border border-indigo-500/30 bg-gradient-to-r from-indigo-500/15 via-purple-500/10 to-cyan-500/15 px-4 py-1.5 text-xs font-semibold text-indigo-300 backdrop-blur-md shadow-lg mb-6">
+            <span className="flex h-2 w-2 rounded-full bg-cyan-400 animate-pulse shadow-[0_0_8px_#22d3ee]" />
+            <span>ASTRALIS ENGINE • LIVE 5.5 SHOWCASE & THEORYCRAFT</span>
+            <span className="rounded-md bg-indigo-500/30 px-1.5 py-0.2 text-[10px] font-mono font-bold text-cyan-300 border border-indigo-400/30">
+              BY YASUO72
+            </span>
           </div>
 
           {/* Heading */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white leading-tight">
-            Genshin Impact{" "}
-            <span className="bg-gradient-to-r from-cyan-400 via-indigo-300 to-purple-400 bg-clip-text text-transparent">
-              Showcase & Stats
+          <h1 className="text-4xl sm:text-6xl md:text-7xl font-black tracking-tight text-white leading-tight">
+            ASTRALIS{" "}
+            <span className="bg-gradient-to-r from-cyan-400 via-indigo-300 to-fuchsia-400 bg-clip-text text-transparent">
+              GENSHIN
             </span>
           </h1>
 
           {/* Explainer */}
-          <p className="mt-4 max-w-xl text-sm sm:text-base text-zinc-300 leading-relaxed">
-            Instantly view public character builds, artifact roll-quality ratings, detailed battle stats, and global percentile rankings by entering any player UID.
+          <p className="mt-4 max-w-xl text-sm sm:text-base text-zinc-300 leading-relaxed font-medium">
+            Next-generation character showcases, high-density weapon & artifact build guides, CV roll ratings, and global percentile leaderboards for any UID.
           </p>
 
           {/* Search Card */}

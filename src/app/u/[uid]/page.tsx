@@ -9,6 +9,7 @@ import CharacterSelectorBar from "@/components/CharacterSelectorBar";
 import EnkaShowcaseCard from "@/components/EnkaShowcaseCard";
 import CharacterGuideTab from "@/components/CharacterGuideTab";
 import BuildGuideSection from "@/components/BuildGuideSection";
+import AkashaLeaderboardCard from "@/components/AkashaLeaderboardCard";
 import CharacterGrid from "@/components/CharacterGrid";
 import { ShowcaseSkeleton } from "@/components/SkeletonCard";
 import ErrorState from "@/components/ErrorState";
@@ -38,7 +39,7 @@ export default function ShowcasePage({ params }: PageProps) {
     }
   );
 
-  const [viewMode, setViewMode] = useState<"card" | "guide" | "grid">("card");
+  const [viewMode, setViewMode] = useState<"card" | "guide" | "akasha" | "grid">("card");
   const [selectedCharId, setSelectedCharId] = useState<string>("");
 
   // Persist last valid search to localStorage
@@ -115,10 +116,10 @@ export default function ShowcasePage({ params }: PageProps) {
               <span className="text-xs font-bold uppercase tracking-wider text-zinc-400">
                 Characters in Showcase ({characters.length})
               </span>
-              <div className="flex items-center gap-1.5 bg-black/40 border border-white/10 p-1 rounded-xl">
+              <div className="flex flex-nowrap sm:flex-wrap items-center gap-1.5 bg-black/40 border border-white/10 p-1 rounded-xl overflow-x-auto scrollbar-none">
                 <button
                   onClick={() => setViewMode("card")}
-                  className={`rounded-lg px-3 py-1 text-xs font-bold transition-all cursor-pointer ${
+                  className={`flex-shrink-0 rounded-lg px-3 py-1 text-xs font-bold transition-all cursor-pointer ${
                     viewMode === "card"
                       ? "bg-indigo-600 text-white shadow-md"
                       : "text-zinc-400 hover:text-white"
@@ -128,7 +129,7 @@ export default function ShowcasePage({ params }: PageProps) {
                 </button>
                 <button
                   onClick={() => setViewMode("guide")}
-                  className={`rounded-lg px-3 py-1 text-xs font-bold transition-all cursor-pointer ${
+                  className={`flex-shrink-0 rounded-lg px-3 py-1 text-xs font-bold transition-all cursor-pointer ${
                     viewMode === "guide"
                       ? "bg-cyan-600 text-white shadow-md"
                       : "text-zinc-400 hover:text-white"
@@ -137,8 +138,18 @@ export default function ShowcasePage({ params }: PageProps) {
                   Build Guide
                 </button>
                 <button
+                  onClick={() => setViewMode("akasha")}
+                  className={`flex-shrink-0 rounded-lg px-3 py-1 text-xs font-bold transition-all cursor-pointer ${
+                    viewMode === "akasha"
+                      ? "bg-amber-600 text-white shadow-md"
+                      : "text-zinc-400 hover:text-white"
+                  }`}
+                >
+                  Akasha Rankings
+                </button>
+                <button
                   onClick={() => setViewMode("grid")}
-                  className={`rounded-lg px-3 py-1 text-xs font-bold transition-all cursor-pointer ${
+                  className={`flex-shrink-0 rounded-lg px-3 py-1 text-xs font-bold transition-all cursor-pointer ${
                     viewMode === "grid"
                       ? "bg-indigo-600 text-white shadow-md"
                       : "text-zinc-400 hover:text-white"
@@ -159,7 +170,7 @@ export default function ShowcasePage({ params }: PageProps) {
           </div>
         )}
 
-        {/* Active Character Showcase Card or Guide or Grid View */}
+        {/* Active Character Showcase Card or Guide or Akasha Ranking or Grid View */}
         {viewMode === "card" && activeChar ? (
           <div className="mt-2">
             <EnkaShowcaseCard
@@ -178,6 +189,14 @@ export default function ShowcasePage({ params }: PageProps) {
               userWeaponName={activeChar.weapon?.name}
             />
             <CharacterGuideTab character={activeChar} />
+          </div>
+        ) : viewMode === "akasha" && activeChar ? (
+          <div className="mt-2">
+            <AkashaLeaderboardCard
+              uid={data.uid}
+              character={activeChar}
+              ranking={activeRanking}
+            />
           </div>
         ) : (
           <div className="mt-4">

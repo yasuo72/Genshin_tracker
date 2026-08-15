@@ -168,6 +168,12 @@ export default function PlayerHeaderCard({
             </svg>
             <span>{refreshing ? "Refreshing..." : "Refresh"}</span>
           </button>
+
+          {/* Hallmark Stamp */}
+          <div className="hidden lg:flex items-center gap-1.5 text-[10px] font-mono text-zinc-400 font-medium">
+            <span className="h-1.5 w-1.5 rounded-full bg-cyan-400"></span>
+            <span>ASTRALIS • BY YASUO</span>
+          </div>
         </div>
 
       </div>
