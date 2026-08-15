@@ -194,8 +194,10 @@ export default function ShowcasePage({ params }: PageProps) {
           <div className="mt-2">
             <AkashaLeaderboardCard
               uid={data.uid}
-              character={activeChar}
-              ranking={activeRanking}
+              characters={data.showcase.characters}
+              selectedCharacter={activeChar}
+              rankings={data.ranking || []}
+              onSelectCharacter={(id) => setSelectedCharId(id)}
             />
           </div>
         ) : (
