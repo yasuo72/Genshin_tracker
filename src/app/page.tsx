@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -63,11 +64,11 @@ export default function LandingPage() {
       <Navbar />
 
       {/* Main Hero Section */}
-      <main className="relative flex flex-1 flex-col items-center justify-center px-4 py-16 sm:px-6 sm:py-24 lg:px-8 overflow-hidden">
+      <main className="relative flex flex-1 flex-col items-center justify-center px-4 py-12 sm:px-6 sm:py-20 lg:px-8 overflow-hidden">
         {/* Background Ambient Glows */}
         <div className="pointer-events-none absolute -top-40 left-1/2 -translate-x-1/2 h-[500px] w-[800px] rounded-full bg-gradient-to-tr from-indigo-600/15 via-purple-600/10 to-cyan-500/15 blur-[120px]" />
 
-        <div className="relative z-10 mx-auto flex max-w-3xl flex-col items-center text-center">
+        <div className="relative z-10 mx-auto flex max-w-4xl flex-col items-center text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-2.5 rounded-full border border-indigo-500/30 bg-gradient-to-r from-indigo-500/15 via-purple-500/10 to-cyan-500/15 px-4 py-1.5 text-xs font-semibold text-indigo-300 backdrop-blur-md shadow-lg mb-6">
             <span className="flex h-2 w-2 rounded-full bg-cyan-400 animate-pulse shadow-[0_0_8px_#22d3ee]" />
@@ -99,23 +100,22 @@ export default function LandingPage() {
               <div className="relative flex-1 w-full">
                 <input
                   type="text"
-                  placeholder="Enter 9 or 10-digit UID (e.g. 1823429142)"
+                  placeholder="Enter Genshin UID (e.g. 1823429142)..."
                   value={uid}
                   onChange={(e) => {
                     setUid(e.target.value);
                     if (error) setError("");
                   }}
-                  maxLength={10}
-                  className="w-full rounded-xl bg-transparent px-4 py-3 text-sm text-white placeholder-zinc-500 focus:outline-none font-mono"
+                  className="w-full bg-transparent px-4 py-3 text-sm text-white placeholder-zinc-500 focus:outline-none font-mono"
                 />
               </div>
               <button
                 type="submit"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-indigo-500 to-cyan-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-500/25 hover:from-indigo-400 hover:to-cyan-400 focus:outline-none focus:ring-2 focus:ring-indigo-400 transition-all cursor-pointer"
+                className="flex w-full sm:w-auto items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-indigo-500 via-purple-500 to-cyan-500 hover:from-indigo-600 hover:to-cyan-600 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-500/25 transition-all hover:scale-105 active:scale-95 cursor-pointer font-sans"
               >
-                <span>Lookup</span>
+                <span>Track UID</span>
                 <svg
-                  className="h-4 w-4"
+                  className="w-4 h-4"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -169,6 +169,55 @@ export default function LandingPage() {
                   <span className="text-[10px] text-zinc-400 ml-1.5 font-sans">({item.label})</span>
                 </button>
               ))}
+            </div>
+          </div>
+
+          {/* Visual Showcase Banner & Characters Cards */}
+          <div className="mt-12 w-full grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="relative overflow-hidden rounded-3xl border border-white/15 bg-black/50 p-4 backdrop-blur-xl shadow-2xl flex items-center gap-4 text-left group hover:border-amber-400/50 transition-all">
+              <div className="relative h-20 w-20 flex-shrink-0 rounded-2xl overflow-hidden border border-amber-400/30 shadow-lg">
+                <Image
+                  src="/assets/traveler.jpg"
+                  alt="Traveler"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+              </div>
+              <div className="flex flex-col">
+                <div className="flex items-center gap-1.5">
+                  <span className="text-amber-400 font-bold text-xs">⚔️ PROTAGONIST</span>
+                  <span className="rounded bg-amber-400/20 text-amber-300 px-1.5 py-0.2 text-[9px] font-mono font-black">
+                    ALL 7 ELEMENTS
+                  </span>
+                </div>
+                <h3 className="text-base font-black text-white mt-0.5">The Traveler</h3>
+                <p className="text-[11px] text-zinc-400 mt-1 leading-snug">
+                  Aether & Lumine — Master every resonance, talent priority, and artifact roll.
+                </p>
+              </div>
+            </div>
+
+            <div className="relative overflow-hidden rounded-3xl border border-white/15 bg-black/50 p-4 backdrop-blur-xl shadow-2xl flex items-center gap-4 text-left group hover:border-cyan-400/50 transition-all">
+              <div className="relative h-20 w-20 flex-shrink-0 rounded-2xl overflow-hidden border border-cyan-400/30 shadow-lg">
+                <Image
+                  src="/assets/paimon.jpg"
+                  alt="Paimon"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+              </div>
+              <div className="flex flex-col">
+                <div className="flex items-center gap-1.5">
+                  <span className="text-cyan-400 font-bold text-xs">✨ COMPANION</span>
+                  <span className="rounded bg-cyan-400/20 text-cyan-300 px-1.5 py-0.2 text-[9px] font-mono font-black">
+                    GUIDE
+                  </span>
+                </div>
+                <h3 className="text-base font-black text-white mt-0.5">Paimon</h3>
+                <p className="text-[11px] text-zinc-400 mt-1 leading-snug">
+                  Best travel companion — Explore leaderboards, CV roll ratings, and meta builds.
+                </p>
+              </div>
             </div>
           </div>
 

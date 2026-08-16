@@ -2,6 +2,8 @@
 
 <div align="center">
 
+<img src="public/assets/banner.jpg" alt="Astralis Genshin Banner" width="100%" style="border-radius: 18px; margin-bottom: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+
 ![Next.js 16](https://img.shields.io/badge/Next.js%2016-black?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React 19](https://img.shields.io/badge/React%2019-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
@@ -11,7 +13,20 @@
 
 **A state-of-the-art Genshin Impact Showcase, Akasha.cv Global Leaderboard Explorer, and Theorycrafting Dashboard built with Next.js 16 and React 19.**
 
-[Features](#-key-features) • [Architecture](#-architecture) • [Tech Stack](#-tech-stack) • [Getting Started](#-getting-started) • [API Routes](#-api-routes)
+[Features](#-key-features) • [Visuals](#-teyvat-companions) • [Architecture](#-architecture) • [Tech Stack](#-tech-stack) • [Getting Started](#-getting-started) • [API Routes](#-api-routes)
+
+</div>
+
+---
+
+## 🌟 Teyvat Companions & Showcase Visuals
+
+<div align="center">
+
+| ⚔️ The Traveler (Aether & Lumine) | ✨ Paimon (Best Travel Companion) |
+|:---:|:---:|
+| <img src="public/assets/traveler.jpg" alt="The Traveler" width="380px" style="border-radius: 14px; box-shadow: 0 8px 25px rgba(0,0,0,0.4);" /> | <img src="public/assets/paimon.jpg" alt="Paimon" width="380px" style="border-radius: 14px; box-shadow: 0 8px 25px rgba(0,0,0,0.4);" /> |
+| *Master of all 7 elements & Teyvat explorer* | *Your celestial guide through every domain & leaderboard* |
 
 </div>
 

@@ -18,6 +18,13 @@ export const metadata: Metadata = {
     "Next-generation Genshin Impact character showcase, weapon and artifact build guides, CV roll quality rankings, and global percentile leaderboards. Engineered by Yasuo (@yasuo72).",
   keywords: ["Genshin Impact", "Astralis", "character showcase", "build guides", "theorycraft", "artifacts", "rankings", "leaderboards", "Yasuo72"],
   authors: [{ name: "Yasuo (yasuo72)" }],
+  icons: {
+    icon: [
+      { url: "/assets/paimon.jpg", type: "image/jpeg" },
+    ],
+    shortcut: "/assets/paimon.jpg",
+    apple: "/assets/paimon.jpg",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
